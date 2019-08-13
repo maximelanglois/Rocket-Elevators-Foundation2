@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RocketElevators</title>
+  <%= favicon_link_tag asset_path('favicon.png')%>
+
+  <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700"
+    rel="stylesheet" type="text/css" />
+  <link href="">
+  <!-- Roboto fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+      <!-- TOP NAV -->
+      <header id="topNav">
+        <div class="container">
+          <!-- Mobile Menu Button -->
+          <button name="Mobile Button" class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!-- Logo -->
+          <a class="logo float-left" href="/#">
+            <%= image_tag 'logo_full', alt: 'Rocket Elevators' %>
+          </a>
+
+          <!-- Top Nav -->
+          <div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+            <nav class="nav-main">
+              <ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+                <li class="active">
+                  <!-- HOME -->
+                  <a href="/">
+                    HOME
+                  </a>
+                </li>
+                <li class="dropdown">
+                  <!-- SERVICES -->
+                  <a class="dropdown-toggle" href="/#services">
+                    SERVICES
+                  </a>
+
+                  <ul style="background-color: white" class="dropdown-menu">
+                    <li class="dropdown">
+                      <a style="color: black" class="dropdown-toggle" href="/residential">
+                        RESIDENTIAL SERVICES
+                      </a>
+                    </li>
+                    <li class="dropdown">
+                      <a style="color: black" class="dropdown-toggle" href="/commercial">
+                        COMMERICIAL SERVICES
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li></li>
+                <li>
+                  <!-- PORTFOLIO -->
+                  <a href="/#portfolio">
+                    PORTFOLIO
+                  </a>
+                </li>
+
+
+                <li>
+                  <!-- CLIENTS -->
+                  <a href="/#clients">
+                    CLIENTS
+                  </a>
+                </li>
+
+                <li>
+                  <!-- CONTACT -->
+                  <a href="/#contact">
+                    CONTACT
+                  </a>
+                </li>
+                <li>
+                  <!-- intervention -->
+                  <a href="/interventions/new">
+                    INTERVENTION
+                  </a>
+                </li>
+                <li>
+                  <!-- LOGIN -->
+                  <% if current_user %>
+                  <%= link_to "LOGOUT", destroy_user_session_path, method: :delete %>
+                  <% else %>
+                  <%= link_to "LOGIN", new_user_session_path %>
+                  <% end %>
+                </li>
+                <!-- ADMIN SECTION -->
+                <li class="dropdown">
+                  <a class="dropdown-toggle">
+                    ADMIN
+                  </a>
+
+                  <ul style="background-color: white" class="dropdown-menu">
+                    <li class="dropdown">
+                      <% if current_user %>
+                      <a style="color: black" class="dropdown-toggle" href="/admin">
+                        BACK OFFICE
+                      </a>
+                      <% end %>
+                    </li>
+                    <li class="dropdown">
+                      <!-- GRAPH -->
+                      <% if current_user %>
+                      <a style="color: black" class="dropdown-toggle" href="/blazer" target="_blank">
+                        GRAPHS
+                      </a>
+                      <% else %>
+                      <%= link_to "LOGIN FIRST", new_user_session_path %>
+                      <% end %>
+                    </li>
+
+                    <li class="dropdown">
+                      <% if current_user %>
+                      <a style="color: black" class="dropdown-toggle" href="/gmap">
+                        GMAP
+                      </a>
+                      <% end %>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- /Top Nav -->
+    </div>
+  </div>
+
+
+  <!-- yields is their to include the other views  -->
+
+  <%= yield %>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <!-- col #1 -->
+        <div class="col-md-8">
+          <h3 class="letter-spacing-1">WHY US?</h3>
+
+          <!-- Small Description -->
+          <p>
+            We can offer you the best services for residential, commercial
+            and corporate projects of any size.
+          </p>
+          <p>
+            <span class="block"><i class="fa fa-envelope"></i> Email:
+              <a href="mailto:info@codeboxx.biz">info@codeboxx.biz
+              </a></span>
+            <span class="block"><i class="fa fa-phone"></i> Phone: (418) 580-7055</span>
+          </p>
+        </div>
+        <!-- /col #1 -->
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">
+        <ul class="float-right m-0 list-inline mobile-block">
+          <li>Terms &amp; Conditions</li>
+          <li>&bull;</li>
+          <li>Privacy</li>
+        </ul>
+        &copy; All Rights Reserved, Rocket Elevators
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+<%# <script type="text/javascript">
+  $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() & gt; 600) {
+            $(".scrollToTop").fadeIn(1000)
+          } else {
+            $(".scrollToTop").fadeOut(1000);
+          }
+        });
+
+        //Click event to scroll to top
+        $(".scrollToTop").click(function () {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 500);
+          return false;
+        });
+      })
+</script> %>
+

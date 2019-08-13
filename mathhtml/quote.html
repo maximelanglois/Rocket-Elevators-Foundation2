@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rocket Elevators - Get a quote</title>
+    <meta name="description" content="CodeBoxx - Genesis - Mathieu Champagne" />
+    <meta name="Author" content="Mathieu Champagne" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
+    <!-- mobile settings -->
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"
+    />
+
+    <!-- WEB FONTS : use %7C instead of | (pipe) -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CORE CSS -->
+    <link
+      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- THEME CSS -->
+    <link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+    <link
+      href="assets/css/color_scheme/red.css"
+      rel="stylesheet"
+      type="text/css"
+      id="color_scheme"
+    />
+  </head>
+
+  <body id="quotebody" class="smoothscroll enable-animation">
+    <!-- wrapper -->
+    <div id="wrapper">
+      <div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+        <!-- TOP NAV -->
+        <header id="topNav">
+          <div class="container">
+            <!-- Mobile Menu Button -->
+            <button
+              class="btn btn-mobile"
+              data-toggle="collapse"
+              data-target=".nav-main-collapse"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Logo -->
+            <a class="logo float-left" href="index.html">
+              <img src="assets/images/logo_full.png" alt="Rocket Elevators" />
+            </a>
+
+            <!-- 	Top Nav 	-->
+            <div
+              class="navbar-collapse collapse float-right nav-main-collapse submenu-dark"
+            >
+              <nav class="nav-main">
+                <ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+                  <li class="active">
+                    <!-- HOME -->
+                    <a href="index.html">
+                      HOME
+                    </a>
+                  </li>
+                  <li class="dropdown">
+                    <!-- SERVICES -->
+                    <a class="dropdown-toggle" href="index.html#services">
+                      SERVICES
+                    </a>
+
+                    <ul style="background-color: white" class="dropdown-menu">
+                      <li class="dropdown">
+                        <a
+                          style="color: black"
+                          class="dropdown-toggle"
+                          href="residential.html"
+                        >
+                          RESIDENTIAL SERVICES
+                        </a>
+                      </li>
+                      <li class="dropdown">
+                        <a
+                          style="color: black"
+                          class="dropdown-toggle"
+                          href="commercial.html"
+                        >
+                          COMMERICIAL SERVICES
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li></li>
+                  <li>
+                    <!-- PORTFOLIO -->
+                    <a href="index.html#portfolio">
+                      PORTFOLIO
+                    </a>
+                  </li>
+
+                  <li>
+                    <!-- OUR TEAM -->
+                    <a href="index.html#ourteam">
+                      OUR TEAM
+                    </a>
+                  </li>
+
+                  <li>
+                    <!-- NEWS -->
+                    <a href="index.html#news">
+                      NEWS
+                    </a>
+                  </li>
+
+                  <li>
+                    <!-- CLIENTS -->
+                    <a href="index.html#clients">
+                      CLIENTS
+                    </a>
+                  </li>
+
+                  <li>
+                    <!-- CONTACT -->
+                    <a href="index.html#contact">
+                      CONTACT
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <!-- /Top Nav -->
+      </div>
+
+      <!-- 
+				PAGE HEADER 	-->
+      <section
+        class="page-header page-header-md parallax parallax-3"
+        style="background-image:url('assets/images/rect_glass_elevator.jpeg')"
+      >
+        <div class="overlay dark-5"></div>
+
+        <div class="container">
+          <h1><strong>QUOTES</strong></h1>
+        </div>
+      </section>
+      <!-- /PAGE HEADER -->
+
+      <!-- Quote -->
+
+      <section class="b-0" style="padding-top: 50px">
+        <div class="container">
+          <div class="row">
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-2"
+              style="margin-bottom: 10px"
+            >
+              <h3>Project type</h3>
+            </div>
+            <div class="col-md-1"></div>
+
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-4"
+              style="margin-bottom: 10px"
+            >
+              <h3>Product range</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2" style="padding-bottom: 10px">
+              <select
+                id="type_selector"
+                class="form-control pointer"
+                name="project[type]"
+              >
+                <option value="">--- Select ---</option>
+                <option value="residentialq">Residential</option>
+                <option value="commercialq">Commercial</option>
+                <option value="corporateq">Corporate</option>
+                <option value="hybridq">Hybrid</option>
+              </select>
+            </div>
+            <div class="col-md-1" style="padding-bottom: 10px"></div>
+            <form
+              id="productRange"
+              class="col-md-4 custom-control-inline"
+              style="padding-bottom: 10px"
+            >
+              <label
+                class="radio-inline"
+                style="padding-right: 15px; padding-top: 8px; font-size: 1.2em"
+              >
+                <input
+                  type="radio"
+                  name="optradio"
+                  checked
+                  value="standard"
+                />Standard
+              </label>
+              <label
+                class="radio-inline"
+                style="padding-right: 15px; padding-top: 8px;font-size: 1.2em"
+              >
+                <input type="radio" name="optradio" value="premium" />Premium
+              </label>
+              <label
+                class="radio-inline"
+                style="padding-right: 15px; padding-top: 8px;font-size: 1.2em"
+              >
+                <input type="radio" name="optradio" value="excelium" />Excelium
+              </label>
+            </form>
+            <div class="col-md-1"></div>
+          </div>
+          <div class="row">
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-7"
+            >
+              <h3>Project details</h3>
+            </div>
+            <div class="col-md-1"></div>
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-4"
+            >
+              <h3>Estimated cost</h3>
+            </div>
+          </div>
+
+          <!-- Residential Form & Bill-->
+          <div class="row">
+            <form class="typeq residentialq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="rappqty">Appartments *</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="rappqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="rfloorqty">Floors *</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="rfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="rugfloorsqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="rugfloorsqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq residentialq hide col-md-1"></div>
+            <div
+              class="typeq residentialq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="rerror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="rshaftresult"> Shafts required</label>
+                <input id="rshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="rtotalcost"> Total cost</label>
+                <input id="rtotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Residential Form & Bill-->
+
+          <!-- Commercial Form & Bill-->
+          <div class="row">
+            <form class="typeq commercialq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="storeqty"> Stores and shops</label>
+                  <input
+                    placeholder="999"
+                    id="storeqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cfloorqty">Floors</label>
+                  <input
+                    placeholder="999"
+                    id="cfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cugfloorsqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="cugfloorsqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cparkqty">Parking spaces</label>
+                  <input
+                    placeholder="999"
+                    id="cparkqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cshaftqty">Elevator shafts required*</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="cshaftqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq commercialq hide col-md-1"></div>
+            <div
+              class="typeq commercialq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="cerror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="cshaftresult"> Shafts required</label>
+                <input id="cshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="ctotalcost"> Total cost</label>
+                <input id="ctotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Commercial Form & Bill-->
+          <!-- Corporative Form & Bill-->
+          <div class="row">
+            <form class="typeq corporateq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="bqty"> Businesses</label>
+                  <input
+                    placeholder="999"
+                    id="bqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="bfloorqty">Floors*</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="bfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="bugfloorqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="bugfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="bparkqty">Parking spaces</label>
+                  <input
+                    placeholder="999"
+                    id="bparkqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="bmaxoccqty"
+                    >Maximum number of occupants by floor*</label
+                  >
+                  <input
+                    required
+                    placeholder="999"
+                    id="bmaxoccqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq corporateq hide col-md-1"></div>
+            <div
+              class="typeq corporateq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="berror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="bshaftresult"> Shafts required</label>
+                <input id="bshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="btotalcost"> Total cost</label>
+                <input id="btotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Corporative Form & Bill-->
+          <!-- Hybrid Form & Bill-->
+          <div class="row">
+            <form class="typeq hybridq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="hstoreqty"> Stores and shops</label>
+                  <input
+                    placeholder="999"
+                    id="hstoreqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hfloorqty">Floors*</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="hfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hugfloorqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="hugfloorqty"
+                    type="number"
+                    min="0"
+                    onkeypress="restrictMinusDecimal(event);"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hparkqty">Parking spaces</label>
+                  <input
+                    placeholder="999"
+                    min="0"
+                    id="hparkqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hbhours">Business hours</label>
+                  <input
+                    placeholder="1-24"
+                    id="hbhours"
+                    type="number"
+                    min="1"
+                    max="24"
+                    onkeypress="restrictMinusDecimal(event);"
+                   
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="hmaxoccqty"
+                    >Maximum number of occupants by floor*</label
+                  >
+                  <input
+                    required
+                    placeholder="999"
+                    id="hmaxoccqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq hybridq hide col-md-1"></div>
+            <div
+              class="typeq hybridq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="herror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="hshaftresult"> Shafts required</label>
+                <input id="hshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="htotalcost"> Total cost</label>
+                <input id="htotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Hybrid Form & Bill-->
+        </div>
+      </section>
+
+      <!-- /Quote -->
+
+      <!-- 3 Buttons -->
+      <div class="b-0" style="background-color:#fbfbfb; padding-bottom: 50px">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <a class="btn btn-danger btn-lg" href="index.html#contact"
+                >CONTACT US &nbsp; <i class="fa fa-angle-right"></i
+              ></a>
+            </div>
+            <div class="col-md-4">
+              <a class="btn btn-danger btn-lg" href="residential.html"
+                >RESIDENTIAL SERVICES &nbsp; <i class="fa fa-angle-right"></i
+              ></a>
+            </div>
+            <div class="col-md-4">
+              <a class="btn btn-danger btn-lg" href="commercial.html"
+                >COMMERICAL SERVICES &nbsp; <i class="fa fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /3 Buttons -->
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <!-- col #1 -->
+            <div class="col-md-8">
+              <h3 class="letter-spacing-1">WHY US?</h3>
+
+              <!-- Small Description -->
+              <p>
+                We can offer you the best services for residential, commercial
+                and corporate projects of any size.
+              </p>
+              <p>
+                <span class="block"
+                  ><i class="fa fa-envelope"></i> Email:
+                  <a href="mailto:info@codeboxx.biz"
+                    >info@codeboxx.biz
+                  </a></span
+                >
+                <span class="block"
+                  ><i class="fa fa-phone"></i> Phone: (418) 580-7055</span
+                >
+              </p>
+            </div>
+            <!-- /col #1 -->
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div class="container">
+            <ul class="float-right m-0 list-inline mobile-block">
+              <li>Terms &amp; Conditions</li>
+              <li>&bull;</li>
+              <li>Privacy</li>
+            </ul>
+            &copy; All Rights Reserved, Rocket Elevators
+          </div>
+        </div>
+      </footer>
+      <!-- /FOOTER -->
+    </div>
+
+    <!-- /wrapper -->
+
+    <!-- SCROLL TO TOP -->
+    <a href="#" id="toTop"></a>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+      <div class="inner">
+        <span class="loader"></span>
+      </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- JAVASCRIPT FILES -->
+    <script>
+      var plugin_path = "assets/plugins/";
+    </script>
+    <script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/quote.js"></script>
+  </body>
+</html>

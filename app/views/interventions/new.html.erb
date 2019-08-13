@@ -1,0 +1,65 @@
+<!-------------------------------------------------------------------------------------------------------------------->
+<!-----------------------------------  SUBMISSION FORM PART ---------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------> 
+
+<%= javascript_include_tag 'interventionpage.js' %>    
+<section>
+	<div id="mainForm">
+		<div id="mainDiv" class="container-fuild">			
+			<h1>Add Intervention</h1>
+
+			<%= form_with(model: @intervention, local: true) do |f| %>
+			
+				<%= f.label :customer_name %>
+				<%= f.select(:customer_id, Customer.all.collect {|c| [c.business_name + " ( id: " + c.id.to_s + " )", c.id] }, { include_blank: true }, { id: :customer_list }) %>
+
+				<div class="hide_select" id="building_show">
+					<%= f.label :Choose_Building %>
+					<%= f.select(:building_id,[],  { include_blank: true }, { id: :building_list })%>
+				</div>
+
+				<div class="hide_select" id="battery_show">
+					<%= f.label :Choose_Battery %>
+					<%= f.select(:battery_id,[], { include_blank: true }, { id: :battery_list })%>
+				</div>
+
+				<div class="hide_select" id="column_show">
+					<%= f.label :Choose_Column %>
+					<%= f.select(:column_id, [], { include_blank: true }, { id: :column_list })%>
+				</div>
+
+				<div class="hide_select" id="elevator_show">
+					<%= f.label :Choose_Elevator %>
+					<%= f.select(:elevator_id, [], { include_blank: true }, { id: :elevator_list })%>
+				</div>
+
+				<div id="employee_show">
+					<%= f.label :Choose_Employee %>
+					<%= f.select(:employee_id, Employee.all.collect {|e| [e.email.to_s , e.id]}, { include_blank: true })%>
+				</div>
+
+				<div>
+					<%= f.label :description, "Description" %>
+					<%= f.text_area :intervention_report,{:size => "34x5"} %>
+				</div>
+				
+
+				<br>
+				<div>
+					<%= f.submit "Submit", class: "btn btn-primary"%>
+				</div>
+
+		
+			<% end %>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+

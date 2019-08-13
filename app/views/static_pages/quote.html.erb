@@ -1,0 +1,455 @@
+    
+      <%= javascript_include_tag "quote" %>
+      <div id="quotebody">
+      <!-- 
+				PAGE HEADER 	-->
+      <section class="page-header page-header-md parallax parallax-3" style="background-image:url(<%= asset_path 'rect_glass_elevator'%>)"
+  
+      >
+      
+
+        <div class="overlay dark-5"></div>
+
+        <div class="container">
+          <h1><strong>QUOTES</strong></h1>
+        </div>
+      </section>
+      <!-- /PAGE HEADER -->
+
+      <!-- Quote -->
+
+      <section class="b-0" style="padding-top: 50px; padding-bottom: 50px ">
+        <div class="container">
+          <div class="row">
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-2"
+              style="margin-bottom: 10px"
+            >
+              <h3>Project type</h3>
+            </div>
+            <div class="col-md-1"></div>
+
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-4"
+              style="margin-bottom: 10px"
+            >
+              <h3>Product range</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2" style="padding-bottom: 10px">
+              <select
+                id="type_selector"
+                class="form-control pointer"
+                name="project[type]"
+              >
+                <option value="">--- Select ---</option>
+                <option value="residentialq">Residential</option>
+                <option value="commercialq">Commercial</option>
+                <option value="corporateq">Corporate</option>
+                <option value="hybridq">Hybrid</option>
+              </select>
+            </div>
+            <div class="col-md-1" style="padding-bottom: 10px"></div>
+            <form
+              id="productRange"
+              class="col-md-4 custom-control-inline"
+              style="padding-bottom: 10px"
+            >
+              <label
+                class="radio-inline"
+                style="padding-right: 15px; padding-top: 8px; font-size: 1.2em"
+              >
+                <input
+                  type="radio"
+                  name="optradio"
+                  checked
+                  value="standard"
+                />Standard
+              </label>
+              <label
+                class="radio-inline"
+                style="padding-right: 15px; padding-top: 8px;font-size: 1.2em"
+              >
+                <input type="radio" name="optradio" value="premium" />Premium
+              </label>
+              <label
+                class="radio-inline"
+                style="padding-right: 15px; padding-top: 8px;font-size: 1.2em"
+              >
+                <input type="radio" name="optradio" value="excelium" />Excelium
+              </label>
+            </form>
+            <div class="col-md-1"></div>
+          </div>
+          <div class="row">
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-7"
+            >
+              <h3>Project details</h3>
+            </div>
+            <div class="col-md-1"></div>
+            <div
+              class="heading-title heading-border-bottom heading-color col-md-4"
+            >
+              <h3>Estimated cost</h3>
+            </div>
+          </div>
+
+          <!-- Residential Form & Bill-->
+          <div class="row">
+            <form class="typeq residentialq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="rappqty">Appartments *</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="rappqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="rfloorqty">Floors *</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="rfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="rugfloorsqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="rugfloorsqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq residentialq hide col-md-1"></div>
+            <div
+              class="typeq residentialq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="rerror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="rshaftresult"> Shafts required</label>
+                <input id="rshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="rtotalcost"> Total cost</label>
+                <input id="rtotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Residential Form & Bill-->
+
+          <!-- Commercial Form & Bill-->
+          <div class="row">
+            <form class="typeq commercialq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="storeqty"> Stores and shops</label>
+                  <input
+                    placeholder="999"
+                    id="storeqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cfloorqty">Floors</label>
+                  <input
+                    placeholder="999"
+                    id="cfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cugfloorsqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="cugfloorsqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cparkqty">Parking spaces</label>
+                  <input
+                    placeholder="999"
+                    id="cparkqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="cshaftqty">Elevator shafts required*</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="cshaftqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq commercialq hide col-md-1"></div>
+            <div
+              class="typeq commercialq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="cerror" style="color:#D61A3B; font-weight: bold"></p>
+
+              <div>
+                <label for="cshaftresult"> Shafts required</label>
+                <input id="cshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="ctotalcost"> Total cost</label>
+                <input id="ctotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Commercial Form & Bill-->
+          <!-- Corporative Form & Bill-->
+          <div class="row">
+            <form class="typeq corporateq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="bqty"> Businesses</label>
+                  <input
+                    placeholder="999"
+                    id="bqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="bfloorqty">Floors*</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="bfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="bugfloorqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="bugfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="bparkqty">Parking spaces</label>
+                  <input
+                    placeholder="999"
+                    id="bparkqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="bmaxoccqty"
+                    >Maximum number of occupants by floor*</label
+                  >
+                  <input
+                    required
+                    placeholder="999"
+                    id="bmaxoccqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq corporateq hide col-md-1"></div>
+            <div
+              class="typeq corporateq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="berror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="bshaftresult"> Shafts required</label>
+                <input id="bshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="btotalcost"> Total cost</label>
+                <input id="btotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Corporative Form & Bill-->
+          <!-- Hybrid Form & Bill-->
+          <div class="row">
+            <form class="typeq hybridq hide  col-md-7">
+              <div class="form-row">
+                <div class="col-md-4">
+                  <label for="hstoreqty"> Stores and shops</label>
+                  <input
+                    placeholder="999"
+                    id="hstoreqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hfloorqty">Floors*</label>
+                  <input
+                    required
+                    placeholder="999"
+                    id="hfloorqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hugfloorqty">Underground Floors</label>
+                  <input
+                    placeholder="999"
+                    id="hugfloorqty"
+                    type="number"
+                    min="0"
+                    onkeypress="restrictMinusDecimal(event);"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hparkqty">Parking spaces</label>
+                  <input
+                    placeholder="999"
+                    min="0"
+                    id="hparkqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="hbhours">Business hours</label>
+                  <input
+                    placeholder="1-24"
+                    id="hbhours"
+                    type="number"
+                    min="1"
+                    max="24"
+                    onkeypress="restrictMinusDecimal(event);"
+                   
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="hmaxoccqty"
+                    >Maximum number of occupants by floor*</label
+                  >
+                  <input
+                    required
+                    placeholder="999"
+                    id="hmaxoccqty"
+                    type="number"
+                    onkeypress="restrictMinusDecimal(event);"
+                    min="0"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class=" typeq hybridq hide col-md-1"></div>
+            <div
+              class="typeq hybridq hide col-md-4"
+              style="border-style: double; border-width: 4px"
+            >
+              <p></p>
+              <p id="herror" style="color: #D61A3B;font-weight: bold"></p>
+
+              <div>
+                <label for="hshaftresult"> Shafts required</label>
+                <input id="hshaftresult" type="text" readonly />
+              </div>
+
+              <div>
+                <label for="htotalcost"> Total cost</label>
+                <input id="htotalcost" type="text" readonly />
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <!-- /Hybrid Form & Bill-->
+        </div>
+
+        
+      </section>
+
+      <!-- /Quote -->
+
+      <!-- Quote button -->
+      <div class="b-0" style="background-color:white">
+        <div class="container">
+          <div class="row">
+          <div class="col-md-12">
+            <form>
+              <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Company Name" id='company_name'>
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="E-mail" id='email_customer'>
+                  </div>
+                  <div class="col">
+                    <div
+                     onclick="sendQuote()" style="background-color:#14659e!important ; color:white;" class="btn btn-lg" role="button" disabled="true">SEND QUOTE <i class="fa fa-angle-right"></i></a>
+                  >
+                    
+                  </div>
+                  <%= recaptcha_tags %>
+                  </div>
+              </div>
+            </form>
+          </div>
+          </div>
+          <div class="row">
+          <div class="heading-title heading-border-bottom heading-color col-md-12" style="margin-right:-15px">
+         </div>
+         </div>
+
+        
+        </div>
+
+</div>
+
+      </div>
+      </div>
+

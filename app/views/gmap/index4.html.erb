@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <title></title>
+ <script src=<%= @gmap_url %> type="text/javascript"></script>
+
+</head>
+<body>
+
+ <div id="map" style="width: 100%; height: 600px;"></div>
+
+ <script type="text/javascript">
+
+   var locations = [['7739 Hintze Terrace United States' , 47.214 ,-122.474],
+         ['0722 Summit Plaza Canada',38.308,-85.577],
+         ['0890 Westerfield Way United States',47.606,-122.332],
+         ['471 Moulton Place United States',43.039,-87.906],
+         ['99011 Anzinger Parkway Boston',42.36,-71.059]
+   ];
+
+
+   var map = new google.maps.Map(document.getElementById('map'), {
+     zoom: 5,
+     center: new google.maps.LatLng(43.039, -87.906),
+     mapTypeId: google.maps.MapTypeId.ROADMAP
+   });
+
+   var infowindow = new google.maps.InfoWindow();
+
+   var marker, i;
+
+   for (i = 0; i < locations.length; i++) {
+     marker = new google.maps.Marker({
+       position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+       map: map
+     });
+
+     google.maps.event.addListener(marker, 'click', (function(marker, i) {
+       return function() {
+         var contentString =
+           '<h4 id="firstHeading" class="firstHeading">6568 rue mercure, Quebec</h4>'+
+           '<div id="bodyContent">'+
+           '<p><b> Building number of floors :</b> ' + locations[i][0] + '</p>' +
+           '<p><b> Client name :</b> ' + locations[i][0] + '</p>' +
+           '<p><b> Number of batteries :</b> ' + locations[i][0] + '</p>' +
+           '<p><b> Nomber of column :</b> ' + locations[i][0] + '</p>' +
+           '<p><b> Nomber of elevators :</b> ' + locations[i][0] + ' </p>'+
+           '<p><b> Contact name :</b> ' + locations[i][0] + '</p>'+
+
+           '</div>';
+         infowindow.setContent(contentString);
+         infowindow.open(map, marker);
+
+       }
+     })(marker, i));
+   }
+
+</body>
+</html>

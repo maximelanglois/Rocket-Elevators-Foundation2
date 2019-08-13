@@ -1,0 +1,22 @@
+
+<script src= <%= $gmap_url %> type="text/javascript"></script>
+
+<div id="map" style="width: 100%; height: 600px;"></div>
+
+<script type ="text/javascript">
+
+var map = new google.maps.Map(document.getElementById('map'), {
+     zoom: 5,
+     center: new google.maps.LatLng(43.039, -87.906),
+     mapTypeId: google.maps.MapTypeId.ROADMAP
+   });
+
+var infowindow = new google.maps.InfoWindow();
+
+   var marker, i;
+
+   for (i = 0; i < <%= raw @info_list %>.length; i++) {
+     marker = new google.maps.Marker({
+       position: new google.maps.LatLng(<%= raw @info_list %>[i][2], <%= raw @info_list %>[i][3]),
+       map: map
+     });

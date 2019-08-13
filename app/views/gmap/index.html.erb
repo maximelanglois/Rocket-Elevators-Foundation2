@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <title>Google Maps Multiple Markers</title> 
+  <script src= <%= $gmap_url %>  ></script>
+</head> 
+<body>
+  <div id="map" style="width: 100%; height: 800px;"></div>
+
+  <script type="text/javascript">
+    var locations = [
+      ['Bondi Beach', -33.890542, 151.274856, 4],
+      ['Coogee Beach', -33.923036, 151.259052, 5],
+      ['Cronulla Beach', -34.028249, 151.157507, 3],
+      ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
+      ['Maroubra Beach', -33.950198, 151.259302, 1]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 5,
+      center: new google.maps.LatLng(43.039, -87.906),
+      
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < <%= raw @info_list %>.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(<%= raw @info_list %>[i][2], <%= raw @info_list %>[i][3]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+        var build_loc = <%= raw @info_list %>[i][0];
+        var build_city = <%= raw @info_list %>[i][9];
+        var nb_floor = <%= raw @info_list %>[i][6];
+        var client_name = <%= raw @info_list %>[i][4];
+        var nb_batt = <%= raw @info_list %>[i][5];
+        var nb_col = <%= raw @info_list %>[i][7];
+        var nb_elevator = <%= raw @info_list %>[i][8];
+        var contact_name = <%= raw @info_list %>[i][1];
+
+        var contentString =
+         '<p>Building localisation: '+ build_loc + ', ' +build_city +'</p>'+
+         '<p>Building number of floors: '+ nb_floor+ '</p>'+
+         '<p>Client name: '+ client_name  +'</p>'+
+         '<p>Number of batteries: ' + nb_batt +'</p>'+
+         '<p>Nomber of column: ' + nb_col +'</p>'+
+         '<p>Nomber of elevators: '+ nb_elevator + '</p>'+
+         '<p>Complete name of technic contact: ' + contact_name +'</p>'+
+         '</div>';
+
+          contentString1 = '<h4>JEAN CHAREST</h4>'
+
+          infowindow.setContent(contentString);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+</body>
+</html>
+
+</html>

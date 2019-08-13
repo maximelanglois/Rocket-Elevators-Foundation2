@@ -1,0 +1,401 @@
+id,created_at,updated_at,address_type,status,entity,number_and_street,unit,city,postal_code,country,notes,lat,lng
+1,6/8/2017 0:06,7/25/2019 16:02,business,active,customer,406 Briar Crest Crossing,449,Farmington,48335,United States,,47.623,-122.318
+2,5/20/2018 12:10,7/25/2019 16:02,business,active,customer,28340 Hansons Place,963,Philadelphia,19178,United States,tincidunt nulla mollis molestie lorem quisque ut,39.953,-75.165
+3,11/7/2017 4:36,7/25/2019 16:02,business,active,customer,0 Stone Corner Court,80,Columbus,43268,United States,leo odio condimentum id luctus nec molestie,39.961,-82.999
+4,9/15/2018 14:57,7/25/2019 16:02,business,active,customer,06576 Dapin Court,9207,Victoriaville,G6T,Canada,integer a nibh in quis,46.056,-71.959
+5,5/27/2019 8:19,7/25/2019 16:02,business,active,customer,824 Bay Junction,643,Tallahassee,32309,United States,pellentesque volutpat dui maecenas tristique est et tempus semper est,30.438,-84.281
+6,8/22/2017 6:11,7/25/2019 16:02,business,active,customer,41164 Bluejay Drive,4,North Vancouver,V7Y,Canada,neque libero convallis eget eleifend luctus ultricies eu,49.32,-123.072
+7,1/7/2018 6:29,7/25/2019 16:02,business,active,customer,7 Delladonna Street,99,Kansas City,66160,United States,cras pellentesque volutpat dui maecenas,39.114,-94.626
+8,1/17/2017 4:37,7/25/2019 16:02,business,active,customer,0 Sunbrook Circle,5093,Port Colborne,L3K,Canada,ut tellus nulla ut,42.886,-79.251
+9,6/13/2017 15:16,7/25/2019 16:02,business,active,customer,21632 Golf Point,400,Las Vegas,89193,United States,platea dictumst morbi vestibulum velit id pretium,36.174,-115.285
+10,6/2/2018 2:10,7/25/2019 16:02,business,active,customer,7877 Northport Center,6,Camlachie,G5Z,Canada,semper interdum mauris ullamcorper purus,43.036,-82.162
+11,3/12/2019 0:00,7/25/2019 16:02,business,active,customer,26875 Arrowood Drive,216,Staten Island,10310,United States,est quam pharetra magna,40.55,-74.212
+12,8/27/2018 0:24,7/25/2019 16:02,business,active,customer,10315 Blackbird Lane,4436,San Antonio,78278,United States,nulla mollis molestie lorem,29.598,-98.52
+13,10/26/2016 6:04,7/25/2019 16:02,business,active,customer,543 Morrow Point,37745,Mirabel,J5K,Canada,nulla ac enim in tempor,38.468,-107.545
+14,7/29/2018 13:15,7/25/2019 16:02,business,active,customer,2417 Hermina Place,470,Pont-Rouge,G3H,Canada,,46.756,-71.698
+15,7/29/2018 13:15,7/25/2019 16:02,business,active,customer,2417 Hermina Place,500,Pont-Rouge,G3H,Canada,,46.756,-71.698
+16,1/20/2017 5:29,7/25/2019 16:12,business,active,customer,510 Springview Drive,19,Des Moines,50393,United States,sit amet eleifend pede libero quis orci nullam molestie,41.587,-93.625
+17,5/4/2017 8:28,7/25/2019 16:12,business,active,customer,15 Wayridge Park,2,Norfolk,23504,United States,,36.851,-76.286
+18,5/4/2017 8:28,7/25/2019 16:12,business,active,customer,15 Wayridge Park,5,Norfolk,23504,United States,,36.851,-76.286
+19,7/7/2017 11:46,7/25/2019 16:12,business,active,customer,28 Sauthoff Alley,7245,North Saanich,K6A,Canada,praesent blandit nam nulla integer pede justo lacinia,48.62,-123.417
+20,7/4/2018 13:16,7/25/2019 16:12,business,active,customer,27864 Forest Dale Center,557,Rochester,14652,United States,ut erat curabitur gravida nisi at nibh,43.157,-77.609
+21,7/4/2018 13:16,7/25/2019 16:12,business,active,customer,27864 Forest Dale Center,600,Rochester,14652,United States,ut erat curabitur gravida nisi at nibh,43.157,-77.609
+22,6/30/2018 1:45,7/25/2019 16:12,business,active,customer,34 Valley Edge Point,12591,Huntsville,35815,United States,lectus pellentesque eget nunc donec quis orci eget orci,34.658,-86.535
+23,1/22/2018 7:31,7/25/2019 16:12,business,active,customer,20 Redwing Drive,90903,Saint Petersburg,33710,United States,velit nec nisi vulputate nonummy maecenas tincidunt lacus at,27.768,-82.64
+24,7/10/2017 2:14,7/25/2019 16:12,business,active,customer,463 Tomscot Court,15,Saint Louis,63121,United States,placerat ante nulla justo,38.627,-90.199
+25,10/6/2016 17:55,7/25/2019 16:12,business,active,customer,16663 Lerdahl Road,40447,Sainte-Anne-de-Bellevue,H9X,Canada,nascetur ridiculus mus vivamus vestibulum sagittis sapien,45.403,-73.95
+26,7/10/2017 2:14,7/25/2019 16:12,business,active,customer,463 Tomscot Court,15,Saint Louis,63121,United States,placerat ante nulla justo,38.627,-90.199
+27,9/11/2017 20:59,7/25/2019 16:12,business,active,customer,4402 Aberg Point,6,Miramichi,L7G,Canada,ut massa quis augue luctus,47.03,-65.506
+28,8/4/2017 23:10,7/25/2019 16:12,business,active,customer,71 Clyde Gallagher Road,27,Detroit,48206,United States,placerat praesent blandit nam nulla integer pede justo lacinia,42.331,-83.046
+29,1/3/2019 4:43,7/25/2019 16:12,business,active,customer,0076 Manitowish Avenue,67041,Bronx,10464,United States,justo eu massa donec dapibus duis at velit eu est,46.124,-89.876
+30,3/2/2019 7:01,7/25/2019 16:12,business,active,customer,7739 Hintze Terrace,57822,Tacoma,98464,United States,id lobortis convallis tortor risus dapibus augue vel accumsan tellus,47.214,-122.474
+31,12/24/2016 18:34,7/25/2019 16:12,business,active,customer,0722 Summit Plaza,8,Peachland,B3S,Canada,et ultrices posuere cubilia curae nulla dapibus dolor,38.308,-85.577
+32,5/30/2019 9:57,7/25/2019 16:12,business,active,customer,0890 Westerfield Way,2,Seattle,98148,United States,lorem integer tincidunt ante vel ipsum praesent blandit,47.606,-122.332
+33,5/1/2018 3:02,7/25/2019 16:12,business,active,customer,471 Moulton Place,294,Milwaukee,53205,United States,luctus et ultrices posuere cubilia curae donec,43.039,-87.906
+34,6/15/2018 9:13,7/25/2019 16:12,business,active,customer,0 Graceland Crossing,45,Des Moines,50362,United States,morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl,41.576,-93.616
+35,1/23/2017 23:59,7/25/2019 16:12,business,active,customer,99011 Anzinger Parkway,280,Boston,2298,United States,in porttitor pede justo eu massa donec dapibus,42.36,-71.059
+36,8/13/2018 19:10,7/25/2019 16:12,business,active,customer,956 Hintze Junction,1803,Charlottetown,C1B,Canada,ultrices posuere cubilia curae,46.238,-63.131
+37,7/11/2016 10:21,7/25/2019 16:12,business,active,customer,475 Nova Circle,134,Tampa,33615,United States,sed tristique in tempus,28.021,-82.558
+38,6/6/2017 17:54,7/25/2019 16:12,business,active,customer,87226 Manufacturers Trail,2303,Markham,L6E,Canada,consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum,43.856,-79.337
+39,6/6/2017 17:54,7/25/2019 16:12,business,active,customer,87226 Manufacturers Trail,2303,Markham,L6E,Canada,consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum,43.856,-79.337
+40,7/25/2016 9:23,7/25/2019 16:12,business,active,customer,1038 Kensington Alley,6867,Great Neck,11024,United States,nunc rhoncus dui vel sem sed sagittis nam congue,40.801,-73.728
+41,9/19/2017 0:12,7/25/2019 16:12,business,active,customer,3000 Prairieview Crossing,7,Lacolle,E5A,Canada,convallis eget eleifend luctus ultricies eu nibh quisque id,45.082,-73.373
+42,11/30/2017 1:21,7/25/2019 16:12,business,active,customer,597 Loomis Street,64,Milwaukee,53277,United States,molestie sed justo pellentesque viverra pede,42.951,-87.979
+43,12/2/2018 2:37,7/25/2019 16:12,business,active,customer,5 Florence Point,86,Memphis,38126,United States,faucibus cursus urna ut tellus,35.15,-90.049
+44,10/11/2018 12:20,7/25/2019 16:12,business,active,customer,427 Kenwood Parkway,4,Fermont,J1E,Canada,id sapien in sapien iaculis congue,52.795,-67.084
+45,4/29/2017 3:16,7/25/2019 16:12,business,active,customer,116 Bonner Plaza,3,West End,V7Y,Canada,consequat lectus in est risus auctor sed tristique in,38.253,-85.639
+46,8/28/2016 17:22,7/25/2019 16:12,business,active,customer,8 Golden Leaf Terrace,690,Omaha,68164,United States,ut dolor morbi vel,41.257,-95.934
+47,10/4/2017 0:15,7/25/2019 16:12,business,active,customer,07 Pierstorff Street,32,West Kelowna,V1Z,Canada,varius integer ac leo,49.864,-119.564
+48,11/13/2016 7:32,7/25/2019 16:12,business,active,customer,19723 Schurz Junction,62666,Denver,80291,United States,sed tristique in tempus sit amet sem fusce consequat,39.739,-104.99
+49,10/17/2018 14:47,7/25/2019 16:12,business,active,customer,8677 Haas Parkway,21,Atlanta,30343,United States,nulla mollis molestie lorem quisque,33.744,-84.344
+50,11/16/2018 9:37,7/25/2019 16:12,business,active,customer,298 Mallard Alley,4199,Cabano,T9H,Canada,posuere felis sed lacus morbi sem mauris laoreet ut rhoncus,47.675,-68.88
+51,5/25/2017 17:19,7/25/2019 16:12,business,active,customer,2 Claremont Terrace,39,Sainte-Anne-des-Monts,L8P,Canada,nullam varius nulla facilisi cras non velit nec nisi,49.122,-66.492
+52,8/29/2018 20:56,7/25/2019 16:12,business,active,customer,18586 Bunker Hill Court,55475,Fort Erie,L2A,Canada,vulputate justo in blandit,42.908,-78.915
+53,4/1/2017 4:31,7/25/2019 16:12,business,active,customer,87635 Old Gate Point,7333,Irving,75037,United States,pharetra magna vestibulum aliquet ultrices erat tortor,32.814,-96.949
+54,4/1/2017 4:31,7/25/2019 16:12,business,active,customer,87635 Old Gate Point,7333,Irving,75037,United States,pharetra magna vestibulum aliquet ultrices erat tortor,32.814,-96.949
+55,8/14/2018 3:01,7/25/2019 16:12,business,active,customer,63359 Farmco Place,7656,Greeley,80638,United States,nullam porttitor lacus at turpis donec posuere metus vitae ipsum,40.423,-104.709
+56,12/14/2017 12:47,7/25/2019 16:12,business,active,customer,38787 Brown Pass,89,Wilkes Barre,18763,United States,odio cras mi pede malesuada in imperdiet et commodo vulputate,41.246,-75.881
+57,5/28/2017 2:35,7/25/2019 16:12,business,active,customer,66 Linden Drive,8009,Varennes,J3X,Canada,in sapien iaculis congue,45.681,-73.438
+58,12/14/2017 12:47,7/25/2019 16:12,business,active,customer,38787 Brown Pass,89,Wilkes Barre,18763,United States,odio cras mi pede malesuada in imperdiet et commodo vulputate,41.246,-75.881
+59,1/20/2019 0:08,7/25/2019 16:12,business,active,customer,9478 Golf View Terrace,8071,Asheville,28805,United States,erat tortor sollicitudin mi,35.645,-82.554
+60,9/7/2016 6:04,7/25/2019 16:12,business,active,customer,7 Stephen Crossing,9409,Napierville,M2N,Canada,metus sapien ut nunc vestibulum ante ipsum primis,45.192,-73.447
+61,1/5/2017 9:56,7/25/2019 16:12,business,active,customer,1877 Green Way,94688,Coaticook,J1A,Canada,tempor convallis nulla neque libero convallis eget eleifend luctus ultricies,45.134,-71.804
+62,1/24/2017 0:45,7/25/2019 16:12,business,active,customer,127 Utah Court,696,Arnprior,K7S,Canada,,40.76,-111.889
+63,6/13/2018 1:39,7/25/2019 16:12,business,active,customer,5 Fisk Crossing,446,Migrate,41905,United States,sapien arcu sed augue aliquam erat volutpat,31.594,-98.822
+64,12/14/2016 19:07,7/25/2019 16:12,business,active,customer,2 Erie Avenue,28645,Bronx,10459,United States,libero quis orci nullam molestie nibh,40.721,-74.044
+65,2/10/2019 21:27,7/25/2019 16:12,business,active,customer,837 Meadow Ridge Drive,284,Aldergrove,V4W,Canada,,49.058,-122.471
+66,8/19/2016 23:28,7/25/2019 16:12,business,active,customer,604 Lakewood Road,97343,Otterburn Park,L6G,Canada,id consequat in consequat ut nulla sed accumsan,45.545,-73.201
+67,10/2/2018 8:49,7/25/2019 16:12,business,active,customer,91896 Pennsylvania Park,85480,Toledo,43656,United States,eleifend quam a odio in hac habitasse platea dictumst maecenas,41.65,-83.533
+68,7/26/2018 4:01,7/25/2019 16:12,business,active,customer,48141 Welch Terrace,8831,Austin,78759,United States,dapibus nulla suscipit ligula in lacus,30.267,-97.743
+69,4/11/2019 12:25,7/25/2019 16:12,business,active,customer,13 Hudson Road,273,Saint-Augustin-de-Desmaures,G3A,Canada,nunc vestibulum ante ipsum primis in faucibus orci luctus,46.747,-71.459
+70,7/9/2017 9:31,7/25/2019 16:12,business,active,customer,219 Goodland Trail,28002,Coaticook,J1A,Canada,fusce consequat nulla nisl nunc nisl duis bibendum felis,45.134,-71.804
+71,6/30/2017 14:15,7/25/2019 16:12,business,active,customer,308 Melvin Junction,8,Honolulu,96805,United States,proin interdum mauris non ligula pellentesque ultrices phasellus,21.307,-157.858
+72,7/18/2016 8:24,7/25/2019 16:12,business,active,customer,1592 Aberg Trail,74973,Los Angeles,90094,United States,,34.052,-118.244
+73,10/1/2016 11:07,7/25/2019 16:12,business,active,customer,267 Troy Terrace,43348,Donnacona,G3M,Canada,nec condimentum neque sapien placerat ante,46.676,-71.735
+74,10/1/2016 11:07,7/25/2019 16:12,business,active,customer,267 Troy Terrace,43348,Donnacona,G3M,Canada,nec condimentum neque sapien placerat ante,46.676,-71.735
+75,9/13/2016 23:17,7/25/2019 16:12,business,active,customer,01245 Oak Valley Terrace,888,Saskatoon,S7W,Canada,,52.133,-106.67
+76,6/8/2018 0:51,7/25/2019 16:14,business,active,customer,113 Manitowish Way,7,Cookshire-Eaton,M4C,Canada,sed accumsan felis ut,45.413,-71.626
+77,6/8/2018 0:51,7/25/2019 16:14,business,active,customer,113 Manitowish Way,7,Cookshire-Eaton,M4C,Canada,sed accumsan felis ut,45.413,-71.626
+78,11/6/2018 21:29,7/25/2019 16:12,business,active,customer,42191 Karstens Center,3,West Palm Beach,33411,United States,urna pretium nisl ut volutpat sapien arcu sed augue,26.715,-80.053
+79,3/22/2018 1:04,7/25/2019 16:14,business,active,customer,7017 Service Point,883,Cincinnati,45223,United States,et ultrices posuere cubilia,39.103,-84.512
+80,4/20/2018 23:20,7/25/2019 16:12,business,active,customer,564 Fisk Street,65,Asheville,28805,United States,feugiat non pretium quis lectus suspendisse,35.595,-82.552
+81,3/3/2018 13:26,7/25/2019 16:14,business,active,customer,392 Magdeline Court,5,Des Moines,50369,United States,lectus pellentesque at nulla suspendisse potenti cras in,41.587,-93.625
+82,3/22/2018 1:04,7/25/2019 16:14,business,active,customer,7017 Service Point,883,Cincinnati,45223,United States,et ultrices posuere cubilia,39.103,-84.512
+83,8/15/2016 20:02,7/25/2019 16:14,business,active,customer,55732 Ohio Lane,39,Los Angeles,90045,United States,,34.052,-118.244
+84,6/8/2018 0:51,7/25/2019 16:14,business,active,customer,113 Manitowish Way,7,Cookshire-Eaton,M4C,Canada,sed accumsan felis ut,45.413,-71.626
+85,5/14/2019 6:41,7/25/2019 16:14,business,active,customer,8208 Harbort Parkway,2155,Buffalo,14276,United States,rhoncus sed vestibulum sit,42.886,-78.878
+86,3/2/2017 10:52,7/25/2019 16:14,business,active,customer,1513 Pennsylvania Drive,14935,Omemee,V1E,Canada,massa id lobortis convallis tortor,44.299,-78.557
+87,12/21/2016 0:20,7/25/2019 16:14,business,active,customer,76 Huxley Park,5286,Newark,19725,United States,dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum,40.736,-74.172
+88,1/16/2017 9:01,7/25/2019 16:14,business,active,customer,9009 Hooker Terrace,49,Beloeil,J3H,Canada,metus sapien ut nunc vestibulum ante ipsum primis,45.568,-73.204
+89,10/31/2016 4:45,7/25/2019 16:14,business,active,customer,61105 Lake View Parkway,3688,Sacramento,94263,United States,justo etiam pretium iaculis justo in,38.483,-121.534
+90,2/2/2018 16:02,7/25/2019 16:14,business,active,customer,8148 Service Alley,67,Nashville,37240,United States,odio in hac habitasse platea dictumst maecenas,36.163,-86.782
+91,12/20/2017 12:34,7/25/2019 16:14,business,active,customer,5 La Follette Center,24176,Mount Pearl,A1N,Canada,nunc proin at turpis a pede,47.521,-52.808
+92,12/20/2017 12:34,7/25/2019 16:14,business,active,customer,5 La Follette Center,24176,Mount Pearl,A1N,Canada,nunc proin at turpis a pede,47.521,-52.808
+93,2/19/2019 18:24,7/25/2019 16:14,business,active,customer,63456 Karstens Lane,1438,Markham,L6E,Canada,venenatis lacinia aenean sit amet justo morbi,39.681,-91.715
+94,5/6/2019 13:28,7/25/2019 16:14,business,active,customer,0 Cordelia Crossing,3,Oklahoma City,73167,United States,tortor quis turpis sed ante vivamus,35.62,-97.582
+95,2/17/2017 14:52,7/25/2019 16:14,business,active,customer,76309 Farwell Junction,2020,Roberval,G8H,Canada,in eleifend quam a odio,48.519,-72.222
+96,5/8/2019 21:00,7/25/2019 16:14,business,active,customer,28 Hooker Avenue,2,Port Moody,V3H,Canada,convallis tortor risus dapibus augue vel accumsan tellus nisi eu,49.285,-122.868
+97,7/12/2018 9:27,7/25/2019 16:14,business,active,customer,39 Rusk Terrace,786,Assiniboia,H3C,Canada,mauris laoreet ut rhoncus aliquet,49.634,-105.992
+98,9/25/2016 7:15,7/25/2019 16:14,business,active,customer,02572 Browning Terrace,539,Mount Pearl,A1N,Canada,ut mauris eget massa tempor convallis nulla,47.521,-52.808
+99,2/1/2018 20:53,7/25/2019 16:14,business,active,customer,9055 Schlimgen Parkway,1,Pensacola,32590,United States,accumsan tellus nisi eu orci mauris lacinia,30.421,-87.217
+100,12/31/2016 13:29,7/25/2019 16:14,business,active,customer,3 Johnson Alley,9,Dallas,75236,United States,neque aenean auctor gravida sem praesent id massa,32.777,-96.797
+101,4/13/2018 13:35,7/25/2019 16:14,business,active,customer,44 Ohio Court,27496,Akron,44310,United States,nunc viverra dapibus nulla suscipit ligula in lacus,41.083,-81.501
+102,3/23/2017 19:04,7/25/2019 16:14,business,active,customer,1394 Esch Lane,3633,Oceanside,92056,United States,habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla,33.196,-117.379
+103,10/20/2018 20:32,7/25/2019 16:14,business,active,customer,373 Hanson Plaza,48,Seattle,98175,United States,luctus ultricies eu nibh,47.606,-122.332
+104,7/21/2018 10:56,7/25/2019 16:14,business,active,customer,88249 6th Park,4718,Richmond,23285,United States,turpis enim blandit mi in porttitor pede,37.541,-77.436
+105,7/21/2018 10:56,7/25/2019 16:14,business,active,customer,88249 6th Park,4718,Richmond,23285,United States,turpis enim blandit mi in porttitor pede,37.541,-77.436
+106,3/14/2017 20:24,7/25/2019 16:14,business,active,customer,9773 Derek Junction,1,Charlotte,28205,United States,non interdum in ante vestibulum ante ipsum primis in,35.227,-80.843
+107,12/5/2018 16:17,7/25/2019 16:14,business,active,customer,84 American Crossing,90,Los Angeles,90055,United States,justo sollicitudin ut suscipit a feugiat et eros vestibulum ac,34.052,-118.244
+108,3/7/2017 10:20,7/25/2019 16:14,business,active,customer,1532 Longview Way,34434,Honolulu,96825,United States,suspendisse potenti cras in purus eu,21.307,-157.858
+109,4/11/2017 17:27,7/25/2019 16:14,business,active,customer,8 Glendale Parkway,329,Lexington,40524,United States,eget tempus vel pede morbi porttitor lorem id ligula,43.135,-87.936
+110,9/13/2018 16:04,7/25/2019 16:14,business,active,customer,9 Chinook Court,0,Fort Myers,33994,United States,ornare consequat lectus in est,26.485,-81.948
+111,6/30/2019 12:39,7/25/2019 16:14,business,active,customer,6146 Melody Alley,1927,Summerside,C1N,Canada,leo odio porttitor id consequat,46.393,-63.79
+112,11/20/2018 13:44,7/25/2019 16:14,business,active,customer,55 Bartillon Center,384,Charleston,29424,United States,et ultrices posuere cubilia curae donec pharetra,38.35,-81.633
+113,1/3/2018 5:51,7/25/2019 16:14,business,active,customer,102 Nelson Street,91,Albany,12210,United States,ipsum aliquam non mauris morbi non lectus,42.653,-73.756
+114,6/2/2017 2:44,7/25/2019 16:14,business,active,customer,6 Park Meadow Circle,360,Saint Louis,63169,United States,id ornare imperdiet sapien urna,38.627,-90.199
+115,7/1/2019 23:47,7/25/2019 16:14,business,active,customer,782 Acker Avenue,57000,Bellevue,98008,United States,id lobortis convallis tortor,47.61,-122.202
+116,6/2/2017 2:44,7/25/2019 16:14,business,active,customer,6 Park Meadow Circle,360,Saint Louis,63169,United States,id ornare imperdiet sapien urna,38.627,-90.199
+117,11/14/2016 3:04,7/25/2019 16:14,business,active,customer,9387 Moose Parkway,9,Maple Ridge,V2X,Canada,dui maecenas tristique est,49.219,-122.598
+118,3/30/2019 9:35,7/25/2019 16:14,business,active,customer,45 Loomis Street,8968,Orangeville,T1J,Canada,ipsum dolor sit amet consectetuer adipiscing,42.443,-71.034
+119,6/7/2019 8:09,7/25/2019 16:14,business,active,customer,0943 Heffernan Junction,43315,Austin,78764,United States,,30.267,-97.743
+120,4/24/2017 22:20,7/25/2019 16:14,business,active,customer,10910 Walton Place,19209,New York City,10009,United States,commodo vulputate justo in blandit ultrices enim,41.274,-74.146
+121,7/26/2017 4:51,7/25/2019 16:14,business,active,customer,5440 Bowman Street,315,San Antonio,78225,United States,sed augue aliquam erat volutpat,29.424,-98.494
+122,11/26/2016 5:20,7/25/2019 16:14,business,active,customer,5 Hoard Trail,189,Houston,77045,United States,et ultrices posuere cubilia curae duis,29.76,-95.37
+123,11/11/2016 4:43,7/25/2019 16:14,business,active,customer,7 Miller Trail,811,Rosthern,B0L,Canada,orci nullam molestie nibh in lectus pellentesque at,52.662,-106.332
+124,10/24/2018 0:01,7/25/2019 16:14,business,active,customer,9701 Bashford Center,889,Staten Island,10305,United States,orci luctus et ultrices posuere cubilia,40.58,-74.15
+125,5/23/2019 13:49,7/25/2019 16:14,business,active,customer,2956 Packers Plaza,392,Greensboro,27455,United States,in felis donec semper,36.073,-79.792
+126,1/7/2019 13:28,7/25/2019 16:14,business,active,customer,45812 Towne Place,597,Washington,20420,United States,ligula sit amet eleifend pede libero,41.054,-83.594
+127,3/30/2018 11:17,7/25/2019 16:14,business,active,customer,20 Briar Crest Way,0,Staten Island,10305,United States,,40.58,-74.15
+128,11/9/2018 6:12,7/25/2019 16:14,business,active,customer,0480 School Hill,99881,Washington,20067,United States,vitae nisl aenean lectus pellentesque eget nunc donec quis,38.659,-87.173
+129,1/12/2019 17:08,7/25/2019 16:14,business,active,customer,8710 Manufacturers Crossing,818,Antigonish,B2G,Canada,quisque porta volutpat erat quisque erat,45.623,-61.993
+130,1/1/2018 5:34,7/25/2019 16:14,business,active,customer,1 Granby Alley,65,Joliet,60435,United States,non sodales sed tincidunt,41.525,-88.082
+131,10/16/2017 4:35,7/25/2019 16:14,business,active,customer,158 Pine View Lane,3192,Memphis,38197,United States,in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem,35.026,-89.948
+132,10/23/2018 21:03,7/25/2019 16:14,business,active,customer,4312 Sachs Crossing,248,Baltimore,21239,United States,nulla sed vel enim sit amet,39.29,-76.612
+133,12/17/2018 14:17,7/25/2019 16:14,business,active,customer,355 Scoville Pass,6,Havre-Saint-Pierre,H4R,Canada,magna at nunc commodo placerat praesent blandit nam nulla integer,50.242,-63.599
+134,10/26/2017 23:47,7/25/2019 16:14,business,active,customer,9 Stang Avenue,5667,Fox Creek,E4B,Canada,gravida sem praesent id,-43.55,172.546
+135,3/8/2019 11:24,7/25/2019 16:14,business,active,customer,92 Kropf Road,133,Manassas,22111,United States,,38.751,-77.475
+136,11/12/2018 18:50,7/25/2019 16:14,business,active,customer,3630 Old Gate Plaza,4984,Little Rock,72209,United States,in hac habitasse platea dictumst etiam faucibus cursus urna,34.754,-92.343
+137,9/29/2017 9:32,7/25/2019 16:14,business,active,customer,55947 Oakridge Junction,30,Timmins,P4P,Canada,nunc nisl duis bibendum felis sed interdum venenatis,48.476,-81.331
+138,10/19/2018 12:05,7/25/2019 16:14,business,active,customer,416 Oxford Street,84,Las Vegas,89135,United States,dolor vel est donec odio justo sollicitudin ut suscipit,36.17,-115.14
+139,7/13/2017 17:45,7/25/2019 16:14,business,active,customer,24 Rutledge Point,9,Digby,N3Y,Canada,,36.281,-83.515
+140,9/25/2016 1:05,7/25/2019 16:14,business,active,customer,783 Artisan Road,4,Norfolk,23509,United States,pulvinar lobortis est phasellus sit amet erat,36.851,-76.286
+141,5/3/2017 12:49,7/25/2019 16:14,business,active,customer,35733 Dawn Lane,93617,Allentown,18105,United States,quisque erat eros viverra eget congue eget semper rutrum nulla,40.602,-75.471
+142,3/12/2019 8:43,7/25/2019 16:14,business,active,customer,158 Russell Court,0,Peace River,T8S,Canada,ultrices phasellus id sapien in,56.234,-117.289
+143,12/15/2016 19:30,7/25/2019 16:14,business,active,customer,75791 Forster Crossing,3555,Arlington,22217,United States,mi pede malesuada in imperdiet et commodo vulputate,32.215,-95.216
+144,4/20/2017 14:35,7/25/2019 16:14,business,active,customer,50232 Bellgrove Hill,891,Las Vegas,89193,United States,at nulla suspendisse potenti,36.17,-115.14
+145,3/4/2019 15:38,7/25/2019 16:14,business,active,customer,2 Graedel Lane,999,Lebel-sur,N2A,Canada,mattis egestas metus aenean fermentum donec ut,37.781,-122.412
+146,7/17/2018 13:45,7/25/2019 16:14,business,active,customer,4 Mayer Street,614,Deep River,M4J,Canada,,41.365,-72.485
+147,5/9/2019 18:14,7/25/2019 16:14,business,active,customer,13348 Columbus Center,12390,Burns Lake,M4H,Canada,nam dui proin leo odio porttitor id consequat,54.233,-125.764
+148,4/23/2018 6:47,7/25/2019 16:14,business,active,customer,9462 Mcguire Trail,32558,Chambly,J3L,Canada,consequat in consequat ut nulla sed accumsan,45.405,-92.863
+149,2/2/2018 18:56,7/25/2019 16:14,business,active,customer,4556 Monument Place,38701,Corpus Christi,78410,United States,pede lobortis ligula sit amet,27.797,-97.391
+150,12/31/2016 11:40,7/25/2019 16:14,business,active,customer,142 Kipling Center,3685,Prince Albert,S6W,Canada,rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus,53.203,-105.753
+151,10/13/2017 7:33,7/25/2019 16:14,business,active,customer,99 Wayridge Circle,327,Beaconsfield,H9W,Canada,nonummy integer non velit donec diam neque,51.602,-0.644
+152,6/23/2019 4:43,7/25/2019 16:14,business,active,customer,2 Bowman Drive,9,Carleton-sur-Mer,P0T,Canada,ac consequat metus sapien ut nunc vestibulum ante,48.178,-66.167
+153,8/17/2018 21:03,7/25/2019 16:14,business,active,customer,14800 Kropf Center,62,Milwaukee,53263,United States,sapien quis libero nullam sit amet turpis elementum,43.039,-87.906
+154,1/18/2019 10:56,7/25/2019 16:14,business,active,customer,42966 Lillian Lane,526,Houston,77228,United States,libero rutrum ac lobortis vel dapibus at diam nam,29.77,-95.412
+155,7/17/2018 18:08,7/25/2019 16:14,business,active,customer,757 Comanche Lane,87645,Nanaimo,V6L,Canada,ipsum ac tellus semper interdum mauris ullamcorper,49.166,-123.94
+156,5/24/2019 2:33,7/25/2019 16:14,business,active,customer,87 East Center,518,Tallahassee,32309,United States,montes nascetur ridiculus mus,30.438,-84.281
+157,4/21/2018 4:43,7/25/2019 16:14,business,active,customer,8 Butternut Parkway,71,San Diego,92165,United States,donec vitae nisi nam ultrices libero non mattis,32.828,-117.136
+158,2/19/2019 7:34,7/25/2019 16:14,business,active,customer,0264 Cottonwood Trail,3,Kansas City,66112,United States,mattis egestas metus aenean fermentum donec ut,39.1,-94.579
+159,4/21/2018 4:43,7/25/2019 16:14,business,active,customer,8 Butternut Parkway,71,San Diego,92165,United States,donec vitae nisi nam ultrices libero non mattis,32.828,-117.136
+160,4/19/2019 1:49,7/25/2019 16:14,business,active,customer,751 Erie Terrace,1900,LAssomption,J5W,Canada,parturient montes nascetur ridiculus mus,45.852,-73.412
+161,4/21/2018 4:43,7/25/2019 16:14,business,active,customer,8 Butternut Parkway,71,San Diego,92165,United States,donec vitae nisi nam ultrices libero non mattis,32.828,-117.136
+162,7/24/2017 4:54,7/25/2019 16:14,business,active,customer,08871 Linden Hill,564,Kimberley,V1A,Canada,,40.46,-74.361
+163,11/25/2017 19:38,7/25/2019 16:14,business,active,customer,185 Dakota Circle,9,Medicine Hat,T1C,Canada,et ultrices posuere cubilia curae nulla dapibus dolor vel est,50.041,-110.676
+164,4/14/2018 9:29,7/25/2019 16:14,business,active,customer,47 2nd Center,0,Wabana,V7X,Canada,ultricies eu nibh quisque id justo sit amet sapien,47.644,-52.947
+165,4/18/2018 19:32,7/25/2019 16:15,business,active,customer,9 Barnett Alley,5592,New Glasgow,B2H,Canada,eu tincidunt in leo,45.587,-62.645
+166,8/17/2018 21:43,7/25/2019 16:15,business,active,customer,41215 Stuart Terrace,9,Baton Rouge,70826,United States,sem praesent id massa id nisl venenatis,30.451,-91.187
+167,9/9/2018 18:12,7/25/2019 16:15,business,active,customer,1 Glendale Alley,0,Saint Petersburg,33710,United States,euismod scelerisque quam turpis adipiscing lorem vitae,27.768,-82.64
+168,1/15/2017 14:16,7/25/2019 16:15,business,active,customer,8215 Clarendon Junction,56,Waterbury,6705,United States,erat vestibulum sed magna at nunc,41.558,-73.052
+169,10/20/2018 22:52,7/25/2019 16:15,business,active,customer,6 Nevada Park,4,Lac La Biche,E1W,Canada,odio cras mi pede malesuada,54.837,-111.971
+170,9/18/2018 5:28,7/25/2019 16:15,business,active,customer,58 Dakota Crossing,23,Washington,20546,United States,phasellus in felis donec semper sapien a,38.924,-76.954
+171,8/27/2017 1:16,7/25/2019 16:15,business,active,customer,19005 Barnett Drive,27,Waco,76711,United States,non mi integer ac,31.556,-97.13
+172,11/10/2016 23:44,7/25/2019 16:15,business,active,customer,66782 Mayfield Alley,3055,Atikokan,K1Y,Canada,primis in faucibus orci,48.76,-91.618
+173,3/25/2019 18:11,7/25/2019 16:15,business,active,customer,577 Vahlen Circle,70171,Fort Worth,76121,United States,sit amet lobortis sapien sapien non mi,32.755,-97.331
+174,3/16/2018 8:07,7/25/2019 16:15,business,active,customer,0942 Eagle Crest Alley,366,Sacramento,95852,United States,ultrices posuere cubilia curae duis faucibus accumsan odio,38.582,-121.494
+175,1/29/2017 5:07,7/25/2019 16:15,business,active,customer,5220 Elmside Court,9323,West End,V7Y,Canada,congue risus semper porta volutpat quam,29.732,-95.543
+176,7/27/2017 18:40,7/25/2019 16:15,business,active,customer,949 Oak Valley Lane,23,bigcity,T7Z,Canada,at nibh in hac habitasse platea dictumst aliquam,34.215,-118.817
+177,7/27/2017 18:40,7/25/2019 16:15,business,active,customer,949 Oak Valley Lane,23,bigtown,T7Z,Canada,at nibh in hac habitasse platea dictumst aliquam,34.215,-118.817
+178,6/19/2019 6:34,7/25/2019 16:15,business,active,customer,7 Boyd Center,94,Flushing,11388,United States,vel pede morbi porttitor lorem id ligula suspendisse ornare consequat,40.767,-73.833
+179,1/25/2017 1:16,7/25/2019 16:15,business,active,customer,50971 Florence Parkway,648,Fort Wayne,46852,United States,sapien varius ut blandit non interdum in ante vestibulum ante,41.079,-85.139
+180,10/20/2016 17:58,7/25/2019 16:15,business,active,customer,826 Bluestem Road,882,Saint Louis,63180,United States,congue risus semper porta volutpat quam pede lobortis ligula,38.627,-90.199
+181,8/26/2017 9:14,7/25/2019 16:15,business,active,customer,1226 Rockefeller Way,45,Memphis,38161,United States,sagittis nam congue risus semper porta volutpat quam,35.15,-90.049
+182,2/14/2018 9:53,7/25/2019 16:15,business,active,customer,1870 Karstens Park,911,Sacramento,94291,United States,habitasse platea dictumst maecenas ut,38.582,-121.494
+183,1/20/2017 3:48,7/25/2019 16:15,business,active,customer,803 Summerview Hill,1,Houston,T9G,Canada,potenti nullam porttitor lacus at turpis,29.76,-95.37
+184,8/6/2016 19:04,7/25/2019 16:15,business,active,customer,83921 Commercial Point,39615,Indianapolis,46278,United States,in sapien iaculis congue vivamus metus arcu adipiscing molestie,39.768,-86.158
+185,4/11/2018 4:19,7/25/2019 16:15,business,active,customer,442 Hoffman Center,199,Fort Smith,L4S,Canada,,38.802,-77.071
+186,11/29/2016 0:14,7/25/2019 16:15,business,active,customer,1 Dottie Court,3,Washington,20088,United States,morbi non lectus aliquam sit amet diam in magna bibendum,47.751,-120.74
+187,7/5/2018 4:07,7/25/2019 16:15,business,active,customer,33 Bayside Junction,87,Fort Worth,76198,United States,eget tempus vel pede morbi porttitor lorem,32.755,-97.331
+188,6/30/2017 16:00,7/25/2019 16:15,business,active,customer,92 Dorton Point,601,Denver,80217,United States,porttitor lorem id ligula suspendisse ornare consequat lectus in est,39.758,-104.987
+189,6/30/2017 16:00,7/25/2019 16:15,business,active,customer,92 Dorton Point,601,Denver,80217,United States,porttitor lorem id ligula suspendisse ornare consequat lectus in est,39.758,-104.987
+190,2/10/2017 14:19,7/25/2019 16:15,business,active,customer,9398 Laurel Trail,3,Sacramento,95852,United States,maecenas ut massa quis augue,38.582,-121.494
+191,6/23/2017 18:27,7/25/2019 16:15,business,active,customer,44 Havey Court,835,Duluth,30096,United States,nulla suscipit ligula in lacus curabitur,46.78,-92.162
+192,2/15/2017 19:08,7/25/2019 16:15,business,active,customer,02056 Fieldstone Alley,7200,Houston,77090,United States,neque libero convallis eget eleifend luctus ultricies,29.884,-95.619
+193,3/23/2017 0:34,7/25/2019 16:15,business,active,customer,00 Hoepker Hill,9,New Orleans,70174,United States,id mauris vulputate elementum nullam,29.951,-90.072
+194,3/10/2018 15:04,7/25/2019 16:15,business,active,customer,27537 Bowman Plaza,64705,Saint-Jerome,J7Z,Canada,dictumst etiam faucibus cursus urna ut tellus nulla ut,36.371,-78.453
+195,6/20/2017 12:11,7/25/2019 16:15,business,active,customer,0111 Bunker Hill Court,0,Philadelphia,19120,United States,iaculis diam erat fermentum justo,39.833,-75.11
+196,1/27/2017 22:37,7/25/2019 16:15,business,active,customer,45465 Farragut Road,92066,Tyler,75710,United States,est risus auctor sed tristique,40.639,-73.926
+197,9/5/2017 17:22,7/25/2019 16:15,business,active,customer,5 Cambridge Trail,1049,Boissevain,G7S,Canada,dolor sit amet consectetuer adipiscing elit proin risus,49.23,-100.06
+198,3/23/2017 0:34,7/25/2019 16:15,business,active,customer,00 Hoepker Hill,9,New Orleans,70174,United States,id mauris vulputate elementum nullam,29.951,-90.072
+199,3/1/2017 23:10,7/25/2019 16:15,business,active,customer,3 Milwaukee Parkway,2,Richmond,23242,United States,sem fusce consequat nulla nisl nunc nisl duis,37.541,-77.436
+200,1/3/2018 18:20,7/25/2019 16:15,business,active,building,93038 Farwell Road,88367,Chicago,60630,United States,eu mi nulla ac enim in tempor,42.006,-87.681
+201,6/3/2019 13:02,7/25/2019 16:15,business,active,building,1 Del Mar Junction,6449,Swan Hills,L2T,Canada,in ante vestibulum ante ipsum primis in faucibus orci,54.716,-115.403
+202,2/19/2018 0:31,7/25/2019 16:15,business,active,building,795 Oakridge Center,2803,Burgeo,N9A,Canada,posuere cubilia curae mauris viverra diam,47.613,-57.611
+203,1/6/2019 9:39,7/25/2019 16:15,business,active,building,058 Merchant Way,3,Saint Louis,63150,United States,ac diam cras pellentesque volutpat,38.627,-90.199
+204,9/29/2016 12:57,7/25/2019 16:15,business,active,building,706 Logan Avenue,171,Washington,20508,United States,scelerisque quam turpis adipiscing,41.154,-95.903
+205,4/16/2018 20:45,7/25/2019 16:15,business,active,building,4 Havey Circle,6584,Washington,20535,United States,luctus et ultrices posuere cubilia curae duis,42.087,-70.859
+206,6/15/2018 22:59,7/25/2019 16:15,business,active,building,2 Forster Plaza,50,Saint Louis,63143,United States,sapien arcu sed augue aliquam erat volutpat,38.627,-90.199
+207,11/11/2016 8:23,7/25/2019 16:15,business,active,building,676 Bowman Pass,7806,Roanoke,24040,United States,volutpat quam pede lobortis ligula,37.296,-79.94
+208,9/24/2017 21:25,7/25/2019 16:15,business,active,building,68312 Darwin Trail,1663,San Jose,95194,United States,,37.327,-121.842
+209,9/14/2018 21:20,7/25/2019 16:15,business,active,building,872 Pawling Parkway,13515,New York City,10270,United States,cras mi pede malesuada,40.892,-73.818
+210,9/9/2016 20:39,7/25/2019 16:15,business,active,building,58 Roxbury Alley,64084,Baltimore,21281,United States,vestibulum ante ipsum primis,39.363,-76.656
+211,4/20/2018 19:26,7/25/2019 16:15,business,active,building,3 Larry Trail,14359,Houston,77281,United States,,29.76,-95.37
+212,1/19/2017 15:56,7/25/2019 16:15,business,active,building,8 Tennessee Avenue,76,Danbury,6816,United States,risus praesent lectus vestibulum quam sapien varius,41.395,-73.454
+213,11/25/2018 4:35,7/25/2019 16:15,business,active,building,3 Welch Court,38,Shreveport,71137,United States,ipsum aliquam non mauris morbi,32.525,-93.75
+214,10/14/2017 1:02,7/25/2019 16:15,business,active,building,00775 Elgar Junction,817,Whittier,90610,United States,tortor sollicitudin mi sit amet lobortis sapien sapien non mi,33.979,-118.033
+215,1/18/2019 15:34,7/25/2019 16:15,business,active,building,70 Oakridge Hill,79,New York City,10155,United States,nam nulla integer pede justo lacinia,40.713,-74.006
+216,1/14/2018 10:01,7/25/2019 16:15,business,active,building,822 South Center,672,Maple Ridge,V2X,Canada,convallis eget eleifend luctus ultricies eu nibh,49.219,-122.598
+217,7/2/2018 7:41,7/25/2019 16:15,business,active,building,803 Canary Junction,42993,West Palm Beach,33411,United States,nullam orci pede venenatis non sodales,26.715,-80.053
+218,2/14/2019 23:19,7/25/2019 16:15,business,active,building,83895 Marcy Way,3,Kansas City,66112,United States,posuere nonummy integer non,39.042,-94.597
+219,10/5/2017 19:04,7/25/2019 16:15,business,active,building,58 Manley Street,20,New Orleans,70183,United States,etiam pretium iaculis justo in hac habitasse platea dictumst etiam,29.951,-90.072
+220,1/14/2018 10:01,7/25/2019 16:15,business,active,building,822 South Center,672,Maple Ridge,V2X,Canada,convallis eget eleifend luctus ultricies eu nibh,49.219,-122.598
+221,1/13/2018 16:46,7/25/2019 16:15,business,active,building,2 Corben Trail,33003,Rockford,61105,United States,quisque porta volutpat erat quisque erat eros viverra eget,42.271,-89.094
+222,5/30/2019 6:25,7/25/2019 16:15,business,active,building,39094 Dexter Drive,45808,Las Vegas,89166,United States,ut odio cras mi pede malesuada,36.17,-115.14
+223,9/20/2016 8:57,7/25/2019 16:15,business,active,building,99 Bashford Point,7,Lavaltrie,J5T,Canada,hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis,45.878,-73.285
+224,9/23/2018 16:39,7/25/2019 16:15,business,active,building,94 Alpine Lane,46666,Lansing,48930,United States,aliquam augue quam sollicitudin vitae consectetuer,42.692,-84.601
+225,12/15/2016 3:49,7/25/2019 16:15,business,active,building,4907 Killdeer Court,65,San Diego,92127,United States,tempor convallis nulla neque,32.716,-117.161
+226,9/18/2017 19:56,7/25/2019 16:15,business,active,building,55 Anzinger Terrace,44950,Saint-Bruno-de-Guigues,G6B,Canada,luctus et ultrices posuere cubilia curae nulla dapibus dolor,47.464,-79.438
+227,2/17/2017 22:21,7/25/2019 16:15,business,active,building,89073 New Castle Way,35,Sioux Falls,57105,United States,mi sit amet lobortis sapien sapien non mi,43.517,-96.667
+228,5/14/2019 3:29,7/25/2019 16:15,business,active,building,88575 Springview Trail,3908,Smithers,P3N,Canada,donec ut mauris eget,54.782,-127.169
+229,12/19/2016 16:10,7/25/2019 16:15,business,active,building,65 Independence Lane,34,Omaha,68117,United States,donec semper sapien a,41.257,-95.934
+230,11/15/2018 23:07,7/25/2019 16:15,business,active,building,8 8th Road,0,Chase,H4R,Canada,tincidunt nulla mollis molestie lorem quisque,26.228,-80.27
+231,5/14/2019 3:29,7/25/2019 16:15,business,active,building,88575 Springview Trail,3908,Smithers,P3N,Canada,donec ut mauris eget,54.782,-127.169
+232,1/30/2017 16:33,7/25/2019 16:15,business,active,building,2 Eagan Crossing,78,Denver,80217,United States,dui proin leo odio porttitor id consequat,39.739,-104.99
+233,1/30/2017 16:33,7/25/2019 16:15,business,active,building,2 Eagan Crossing,78,Denver,80217,United States,dui proin leo odio porttitor id consequat,39.739,-104.99
+234,4/17/2019 5:23,7/25/2019 16:15,business,active,building,1 Arizona Alley,4,Boston,2203,United States,sagittis sapien cum sociis natoque penatibus et magnis,33.302,-111.843
+235,7/26/2017 5:44,7/25/2019 16:15,business,active,building,091 Continental Lane,299,Mont-Joli,G5H,Canada,turpis elementum ligula vehicula consequat morbi a ipsum integer,48.586,-68.19
+236,12/2/2018 19:05,7/25/2019 16:15,business,active,building,75 Caliangt Center,31,San Bernardino,92415,United States,turpis nec euismod scelerisque quam turpis,34.108,-117.29
+237,11/15/2018 4:17,7/25/2019 16:15,business,active,building,243 Prairie Rose Terrace,48,Portland,97240,United States,,45.516,-122.679
+238,1/30/2017 16:33,7/25/2019 16:15,business,active,building,2 Eagan Crossing,78,Denver,80217,United States,dui proin leo odio porttitor id consequat,39.739,-104.99
+239,8/6/2018 22:23,7/25/2019 16:15,business,active,building,2837 Eastwood Alley,63,Santa Fe,87505,United States,ultrices phasellus id sapien in sapien iaculis congue,35.687,-105.938
+240,4/26/2018 8:31,7/25/2019 16:15,business,active,building,6 Pond Street,23202,Sherbrooke,J1K,Canada,integer tincidunt ante vel ipsum,45.404,-71.893
+241,6/7/2019 20:10,7/25/2019 16:15,business,active,building,5 Northridge Lane,725,Charleston,25331,United States,,32.776,-79.931
+242,3/11/2019 22:32,7/25/2019 16:15,business,active,building,066 Evergreen Lane,1,Simi Valley,93094,United States,blandit mi in porttitor pede justo,34.269,-118.781
+243,6/30/2019 3:13,7/25/2019 16:15,business,active,building,322 Dorton Park,437,Jefferson City,65110,United States,erat nulla tempus vivamus in felis eu sapien cursus vestibulum,38.577,-92.174
+244,7/31/2017 14:05,7/25/2019 16:15,business,active,building,50614 High Crossing Road,8844,Les Cote,J6S,Canada,purus eu magna vulputate luctus cum sociis natoque penatibus et,45.309,-74.059
+245,1/23/2017 0:23,7/25/2019 16:15,business,active,building,83 Esker Way,55,San Antonio,78285,United States,turpis enim blandit mi in porttitor pede justo,29.424,-98.494
+246,6/25/2017 8:22,7/25/2019 16:15,business,active,building,7751 5th Terrace,93887,Phoenix,85010,United States,consectetuer eget rutrum at lorem integer tincidunt,33.448,-112.074
+247,6/8/2018 15:13,7/25/2019 16:15,business,active,building,60 Golf Course Way,667,Bedford,J6W,Canada,,52.139,-0.467
+248,3/29/2019 22:55,7/25/2019 16:15,business,active,building,1357 Continental Park,7238,Shreveport,71115,United States,duis ac nibh fusce,32.525,-93.75
+249,2/19/2018 4:44,7/25/2019 16:15,business,active,building,17 Cardinal Way,3,Madison,53716,United States,id mauris vulputate elementum nullam varius nulla facilisi cras,43.073,-89.401
+250,2/1/2019 14:59,7/25/2019 16:15,business,active,building,3 Loftsgordon Junction,7750,Miami,33129,United States,blandit mi in porttitor pede justo eu massa,25.762,-80.192
+251,5/7/2018 12:20,7/25/2019 16:15,business,active,building,406 Briar Crest Crossing,7432,Farmington,48335,United States,cras mi pede malesuada,47.623,-122.318
+252,10/2/2017 5:18,7/25/2019 16:15,business,active,building,28340 Hansons Place,5,Philadelphia,19178,United States,ac consequat metus sapien ut nunc vestibulum ante ipsum,39.953,-75.165
+253,6/11/2019 20:34,7/25/2019 16:15,business,active,building,0 Stone Corner Court,19034,Columbus,43268,United States,ipsum ac tellus semper interdum,39.961,-82.999
+254,11/23/2018 18:23,7/25/2019 16:15,business,active,building,06576 Dapin Court,407,Victoriaville,G6T,Canada,auctor sed tristique in tempus,46.056,-71.959
+255,11/28/2017 2:54,7/25/2019 16:15,business,active,building,824 Bay Junction,29,Tallahassee,32309,United States,rutrum nulla tellus in sagittis dui vel nisl duis,30.438,-84.281
+256,12/2/2018 10:24,7/25/2019 16:15,business,active,building,41164 Bluejay Drive,914,North Vancouver,V7Y,Canada,metus aenean fermentum donec,49.32,-123.072
+257,2/26/2018 8:45,7/25/2019 16:15,business,active,building,7 Delladonna Street,45,Kansas City,66160,United States,porta volutpat quam pede lobortis,39.114,-94.626
+258,9/21/2016 15:08,7/25/2019 16:15,business,active,building,0 Sunbrook Circle,82112,Port Colborne,L3K,Canada,ornare imperdiet sapien urna pretium nisl ut,42.886,-79.251
+259,5/12/2018 21:23,7/25/2019 16:15,business,active,building,21632 Golf Point,599,Las Vegas,89193,United States,ligula nec sem duis aliquam convallis nunc proin at turpis,36.174,-115.285
+260,4/2/2018 22:39,7/25/2019 16:15,business,active,building,7877 Northport Center,219,Camlachie,G5Z,Canada,,43.036,-82.162
+261,11/27/2016 16:25,7/25/2019 16:15,business,active,building,26875 Arrowood Drive,93,Staten Island,10310,United States,sed lacus morbi sem mauris laoreet,40.55,-74.212
+262,10/16/2017 14:31,7/25/2019 16:15,business,active,building,10315 Blackbird Lane,41837,San Antonio,78278,United States,hac habitasse platea dictumst maecenas ut massa,29.598,-98.52
+263,9/6/2017 16:03,7/25/2019 16:15,business,active,building,543 Morrow Point,7675,Mirabel,J5K,Canada,aliquet ultrices erat tortor sollicitudin mi,38.468,-107.545
+264,10/2/2016 14:00,7/25/2019 16:15,business,active,building,2417 Hermina Place,82,Pont-Rouge,G3H,Canada,id nisl venenatis lacinia aenean,46.756,-71.698
+265,12/2/2018 10:24,7/25/2019 16:15,business,active,building,41164 Bluejay Drive,914,North Vancouver,V7Y,Canada,metus aenean fermentum donec,49.32,-123.072
+266,12/2/2016 12:36,7/25/2019 16:15,business,active,building,510 Springview Drive,26814,Des Moines,50393,United States,amet erat nulla tempus vivamus in felis eu,41.587,-93.625
+267,10/9/2017 2:40,7/25/2019 16:15,business,active,building,15 Wayridge Park,1527,Norfolk,23504,United States,volutpat sapien arcu sed augue aliquam erat volutpat in,36.851,-76.286
+268,8/28/2016 4:23,7/25/2019 16:15,business,active,building,71 Clyde Gallagher Road,4143,Detroit,48206,United States,rhoncus dui vel sem sed,42.331,-83.046
+269,12/10/2018 12:30,7/25/2019 16:15,business,active,building,28 Sauthoff Alley,54689,North Saanich,K6A,Canada,vulputate luctus cum sociis natoque,48.62,-123.417
+270,8/23/2018 8:25,7/25/2019 16:15,business,active,building,27864 Forest Dale Center,429,Rochester,14652,United States,aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed,43.157,-77.609
+271,12/2/2018 10:24,7/25/2019 16:15,business,active,building,41164 Bluejay Drive,914,North Vancouver,V7Y,Canada,metus aenean fermentum donec,49.32,-123.072
+272,5/13/2018 7:06,7/25/2019 16:15,business,active,building,34 Valley Edge Point,66,Huntsville,35815,United States,augue quam sollicitudin vitae consectetuer eget rutrum,34.658,-86.535
+273,6/21/2019 13:24,7/25/2019 16:15,business,active,building,20 Redwing Drive,86859,Saint Petersburg,33710,United States,nulla pede ullamcorper augue a,27.768,-82.64
+274,8/23/2018 8:25,7/25/2019 16:15,business,active,building,27864 Forest Dale Center,429,Rochester,14652,United States,aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed,43.157,-77.609
+275,3/11/2018 2:22,7/25/2019 16:15,business,active,building,16663 Lerdahl Road,703,Sainte-Anne-de-Bellevue,H9X,Canada,,45.403,-73.95
+276,3/2/2018 21:54,7/25/2019 16:15,business,active,building,463 Tomscot Court,408,Saint Louis,63121,United States,sodales sed tincidunt eu felis fusce posuere felis,38.627,-90.199
+277,8/29/2016 20:38,7/25/2019 16:15,business,active,building,4402 Aberg Point,5687,Miramichi,L7G,Canada,in felis donec semper sapien a libero nam dui proin,47.03,-65.506
+278,8/28/2016 4:23,7/25/2019 16:15,business,active,building,71 Clyde Gallagher Road,4143,Detroit,48206,United States,rhoncus dui vel sem sed,42.331,-83.046
+279,4/29/2017 0:15,7/25/2019 16:15,business,active,building,0076 Manitowish Avenue,659,Bronx,10464,United States,curae mauris viverra diam vitae quam suspendisse,46.124,-89.876
+280,10/19/2016 18:11,7/25/2019 16:15,business,active,building,7739 Hintze Terrace,13917,Tacoma,98464,United States,mauris sit amet eros,47.214,-122.474
+281,5/25/2017 9:19,7/25/2019 16:15,business,active,building,0722 Summit Plaza,17,Peachland,B3S,Canada,tristique in tempus sit amet sem fusce consequat nulla nisl,38.308,-85.577
+282,1/27/2018 10:17,7/25/2019 16:15,business,active,building,0890 Westerfield Way,5,Seattle,98148,United States,id consequat in consequat ut nulla,47.606,-122.332
+283,11/30/2018 2:16,7/25/2019 16:15,business,active,building,471 Moulton Place,72,Milwaukee,53205,United States,,43.039,-87.906
+284,5/13/2018 3:54,7/25/2019 16:15,business,active,building,0 Graceland Crossing,5,Des Moines,50362,United States,consectetuer adipiscing elit proin risus praesent lectus,41.576,-93.616
+285,6/10/2019 4:09,7/25/2019 16:15,business,active,building,99011 Anzinger Parkway,339,Boston,2298,United States,donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi,42.36,-71.059
+286,2/11/2018 4:12,7/25/2019 16:15,business,active,building,956 Hintze Junction,8,Charlottetown,C1B,Canada,at velit vivamus vel nulla eget eros elementum,46.238,-63.131
+287,4/29/2018 8:31,7/25/2019 16:15,business,active,building,475 Nova Circle,7472,Tampa,33615,United States,est phasellus sit amet erat nulla tempus vivamus in felis,28.021,-82.558
+288,9/2/2017 21:38,7/25/2019 16:15,business,active,building,116 Bonner Plaza,7,West End,V7Y,Canada,quam sollicitudin vitae consectetuer eget rutrum at,38.253,-85.639
+289,4/22/2018 20:31,7/25/2019 16:15,business,active,building,87226 Manufacturers Trail,777,Markham,L6E,Canada,,43.856,-79.337
+290,5/10/2017 2:58,7/25/2019 16:15,business,active,building,1038 Kensington Alley,98783,Great Neck,11024,United States,tempus semper est quam,40.801,-73.728
+291,10/22/2017 7:59,7/25/2019 16:15,business,active,building,3000 Prairieview Crossing,7936,Lacolle,E5A,Canada,molestie sed justo pellentesque,45.082,-73.373
+292,7/24/2016 21:16,7/25/2019 16:15,business,active,building,597 Loomis Street,0,Milwaukee,53277,United States,curae nulla dapibus dolor,42.951,-87.979
+293,7/7/2018 23:03,7/25/2019 16:15,business,active,building,5 Florence Point,2934,Memphis,38126,United States,libero quis orci nullam molestie nibh,35.15,-90.049
+294,11/30/2018 9:47,7/25/2019 16:15,business,active,building,427 Kenwood Parkway,19,Fermont,J1E,Canada,arcu adipiscing molestie hendrerit at vulputate,52.795,-67.084
+295,9/2/2017 21:38,7/25/2019 16:15,business,active,building,116 Bonner Plaza,7,West End,V7Y,Canada,quam sollicitudin vitae consectetuer eget rutrum at,38.253,-85.639
+296,9/13/2018 20:14,7/25/2019 16:15,business,active,building,8 Golden Leaf Terrace,1598,Omaha,68164,United States,,41.257,-95.934
+297,7/4/2018 17:01,7/25/2019 16:15,business,active,building,07 Pierstorff Street,1805,West Kelowna,V1Z,Canada,eleifend luctus ultricies eu nibh quisque id,49.864,-119.564
+298,12/26/2016 19:50,7/25/2019 16:16,business,active,building,19723 Schurz Junction,78,Denver,80291,United States,tortor quis turpis sed,39.739,-104.99
+299,4/4/2017 14:47,7/25/2019 16:16,business,active,building,8677 Haas Parkway,0,Atlanta,30343,United States,,33.744,-84.344
+300,6/13/2019 16:31,7/25/2019 16:16,business,active,building,298 Mallard Alley,327,Cabano,T9H,Canada,sapien cursus vestibulum proin eu mi,47.675,-68.88
+301,4/5/2017 22:56,7/25/2019 16:16,business,active,building,2 Claremont Terrace,0,Sainte-Anne-des-Monts,L8P,Canada,ullamcorper purus sit amet nulla quisque,49.122,-66.492
+302,3/22/2018 1:32,7/25/2019 16:16,business,active,building,18586 Bunker Hill Court,12727,Fort Erie,L2A,Canada,ligula in lacus curabitur at ipsum,42.908,-78.915
+303,8/6/2016 5:52,7/25/2019 16:16,business,active,building,87635 Old Gate Point,4281,Irving,75037,United States,at velit eu est congue elementum in hac habitasse platea,32.814,-96.949
+304,12/27/2017 7:43,7/25/2019 16:16,business,active,building,13 Hudson Road,46758,Saint-Augustin-de-Desmaures,G3A,Canada,tellus in sagittis dui vel nisl duis ac nibh,46.747,-71.459
+305,3/7/2019 17:50,7/25/2019 16:16,business,active,building,63359 Farmco Place,0,Greeley,80638,United States,diam cras pellentesque volutpat dui maecenas,40.423,-104.709
+306,10/9/2017 22:05,7/25/2019 16:16,business,active,building,38787 Brown Pass,7,Wilkes Barre,18763,United States,integer tincidunt ante vel ipsum praesent,41.246,-75.881
+307,2/27/2017 13:03,7/25/2019 16:16,business,active,building,66 Linden Drive,4,Varennes,J3X,Canada,sapien arcu sed augue aliquam erat volutpat in congue,45.681,-73.438
+308,6/17/2019 0:49,7/25/2019 16:16,business,active,building,1592 Aberg Trail,13,Los Angeles,90094,United States,nascetur ridiculus mus etiam vel,34.052,-118.244
+309,8/14/2018 18:59,7/25/2019 16:16,business,active,building,9478 Golf View Terrace,3764,Asheville,28805,United States,,35.645,-82.554
+310,10/19/2018 3:28,7/25/2019 16:16,business,active,building,7 Stephen Crossing,3,Napierville,M2N,Canada,cubilia curae duis faucibus accumsan,45.192,-73.447
+311,7/11/2018 22:49,7/25/2019 16:16,business,active,building,1877 Green Way,69789,Coaticook,J1A,Canada,arcu sed augue aliquam erat,45.134,-71.804
+312,4/26/2018 3:16,7/25/2019 16:16,business,active,building,127 Utah Court,0,Arnprior,K7S,Canada,eu orci mauris lacinia sapien quis libero nullam sit,40.76,-111.889
+313,12/24/2018 17:24,7/25/2019 16:16,business,active,building,5 Fisk Crossing,68240,Migrate,41905,United States,,31.594,-98.822
+314,6/22/2017 1:35,7/25/2019 16:16,business,active,building,2 Erie Avenue,110,Bronx,10459,United States,in faucibus orci luctus et ultrices posuere,40.721,-74.044
+315,8/14/2017 2:53,7/25/2019 16:16,business,active,building,837 Meadow Ridge Drive,25,Aldergrove,V4W,Canada,maecenas ut massa quis augue luctus tincidunt nulla,49.058,-122.471
+316,5/23/2018 15:27,7/25/2019 16:16,business,active,building,604 Lakewood Road,49994,Otterburn Park,L6G,Canada,diam in magna bibendum imperdiet nullam,45.545,-73.201
+317,1/26/2019 18:33,7/25/2019 16:16,business,active,building,91896 Pennsylvania Park,6116,Toledo,43656,United States,lectus in est risus auctor,41.65,-83.533
+318,2/7/2019 21:16,7/25/2019 16:16,business,active,building,48141 Welch Terrace,14654,Austin,78759,United States,tempor turpis nec euismod scelerisque quam turpis,30.267,-97.743
+319,12/27/2017 7:43,7/25/2019 16:16,business,active,building,13 Hudson Road,46758,Saint-Augustin-de-Desmaures,G3A,Canada,tellus in sagittis dui vel nisl duis ac nibh,46.747,-71.459
+320,6/29/2018 15:47,7/25/2019 16:16,business,active,building,219 Goodland Trail,75097,Coaticook,J1A,Canada,felis fusce posuere felis sed lacus morbi sem mauris,45.134,-71.804
+321,3/26/2018 9:34,7/25/2019 16:16,business,active,building,308 Melvin Junction,13033,Honolulu,96805,United States,aliquet at feugiat non,21.307,-157.858
+322,6/17/2019 0:49,7/25/2019 16:16,business,active,building,1592 Aberg Trail,13,Los Angeles,90094,United States,nascetur ridiculus mus etiam vel,34.052,-118.244
+323,10/3/2018 15:33,7/25/2019 16:16,business,active,building,267 Troy Terrace,4,Donnacona,G3M,Canada,,46.676,-71.735
+324,11/29/2018 11:50,7/25/2019 16:16,business,active,building,9009 Hooker Terrace,42588,Beloeil,J3H,Canada,lacus curabitur at ipsum ac,45.568,-73.204
+325,11/12/2017 1:40,7/25/2019 16:16,business,active,building,01245 Oak Valley Terrace,9428,Saskatoon,S7W,Canada,aenean lectus pellentesque eget nunc donec,52.133,-106.67
+326,2/9/2017 15:49,7/25/2019 16:16,business,active,building,02572 Browning Terrace,813,Mount Pearl,A1N,Canada,suscipit nulla elit ac nulla sed,47.521,-52.808
+327,11/18/2017 7:17,7/25/2019 16:16,business,active,building,45812 Towne Place,9077,Washington,20420,United States,,41.054,-83.594
+328,6/5/2017 23:24,7/25/2019 16:16,business,active,building,42191 Karstens Center,24,West Palm Beach,33411,United States,leo pellentesque ultrices mattis odio donec vitae nisi nam,26.715,-80.053
+329,9/2/2018 2:46,7/25/2019 16:16,business,active,building,8 Glendale Parkway,5,Lexington,40524,United States,integer non velit donec diam neque vestibulum eget,43.135,-87.936
+330,6/8/2018 10:22,7/25/2019 16:16,business,active,building,564 Fisk Street,4752,Asheville,28805,United States,,35.595,-82.552
+331,8/12/2016 23:27,7/25/2019 16:16,business,active,building,392 Magdeline Court,101,Des Moines,50369,United States,vitae mattis nibh ligula nec sem duis aliquam convallis,41.587,-93.625
+332,12/25/2017 5:51,7/25/2019 16:16,business,active,building,7017 Service Point,934,Cincinnati,45223,United States,phasellus sit amet erat nulla tempus vivamus,39.103,-84.512
+333,2/7/2019 13:50,7/25/2019 16:16,business,active,building,55732 Ohio Lane,8,Los Angeles,90045,United States,maecenas tristique est et tempus semper est quam pharetra magna,34.052,-118.244
+334,7/26/2018 19:35,7/25/2019 16:16,business,active,building,113 Manitowish Way,7,Cookshire-Eaton,M4C,Canada,lacinia sapien quis libero nullam sit amet,45.413,-71.626
+335,5/22/2019 5:49,7/25/2019 16:16,business,active,building,8208 Harbort Parkway,1178,Buffalo,14276,United States,amet nulla quisque arcu libero rutrum,42.886,-78.878
+336,1/15/2018 7:48,7/25/2019 16:16,business,active,building,1513 Pennsylvania Drive,0,Omemee,V1E,Canada,at nibh in hac habitasse platea dictumst aliquam augue,44.299,-78.557
+337,3/6/2019 21:00,7/25/2019 16:16,business,active,building,76 Huxley Park,9,Newark,19725,United States,interdum venenatis turpis enim blandit mi in porttitor pede justo,40.736,-74.172
+338,11/29/2018 11:50,7/25/2019 16:16,business,active,building,9009 Hooker Terrace,42588,Beloeil,J3H,Canada,lacus curabitur at ipsum ac,45.568,-73.204
+339,6/3/2019 9:46,7/25/2019 16:16,business,active,building,61105 Lake View Parkway,4342,Sacramento,94263,United States,maecenas leo odio condimentum id luctus nec molestie,38.483,-121.534
+340,12/16/2018 10:40,7/25/2019 16:16,business,active,building,8148 Service Alley,479,Nashville,37240,United States,ultrices phasellus id sapien in sapien iaculis congue vivamus,36.163,-86.782
+341,9/10/2017 20:30,7/25/2019 16:16,business,active,building,5 La Follette Center,35,Mount Pearl,A1N,Canada,vestibulum rutrum rutrum neque aenean auctor,47.521,-52.808
+342,7/26/2018 19:35,7/25/2019 16:16,business,active,building,113 Manitowish Way,7,Cookshire-Eaton,M4C,Canada,lacinia sapien quis libero nullam sit amet,45.413,-71.626
+343,7/19/2017 23:55,7/25/2019 16:16,business,active,building,63456 Karstens Lane,1,Markham,L6E,Canada,ut blandit non interdum in,39.681,-91.715
+344,2/9/2017 23:54,7/25/2019 16:16,business,active,building,0 Cordelia Crossing,22155,Oklahoma City,73167,United States,,35.62,-97.582
+345,12/9/2017 3:35,7/25/2019 16:16,business,active,building,76309 Farwell Junction,8999,Roberval,G8H,Canada,erat vestibulum sed magna at nunc commodo placerat praesent,48.519,-72.222
+346,10/22/2018 7:45,7/25/2019 16:16,business,active,building,28 Hooker Avenue,64,Port Moody,V3H,Canada,viverra diam vitae quam suspendisse potenti nullam porttitor lacus at,49.285,-122.868
+347,2/3/2017 21:53,7/25/2019 16:16,business,active,building,39 Rusk Terrace,3,Assiniboia,H3C,Canada,natoque penatibus et magnis dis parturient montes nascetur ridiculus mus,49.634,-105.992
+348,2/9/2017 15:49,7/25/2019 16:16,business,active,building,02572 Browning Terrace,813,Mount Pearl,A1N,Canada,suscipit nulla elit ac nulla sed,47.521,-52.808
+349,12/30/2018 15:06,7/25/2019 16:16,business,active,building,9055 Schlimgen Parkway,288,Pensacola,32590,United States,quam sollicitudin vitae consectetuer eget,30.421,-87.217
+350,8/19/2017 18:34,7/25/2019 16:16,business,active,building,3 Johnson Alley,57750,Dallas,75236,United States,,32.777,-96.797
+351,12/25/2018 4:46,7/25/2019 16:16,business,active,building,44 Ohio Court,9117,Akron,44310,United States,,41.083,-81.501
+352,4/13/2017 18:33,7/25/2019 16:16,business,active,building,1394 Esch Lane,7547,Oceanside,92056,United States,nulla nunc purus phasellus in felis donec,33.196,-117.379
+353,4/13/2018 1:31,7/25/2019 16:16,business,active,building,373 Hanson Plaza,0,Seattle,98175,United States,volutpat in congue etiam justo etiam,47.606,-122.332
+354,11/27/2017 8:28,7/25/2019 16:16,business,active,building,88249 6th Park,42,Richmond,23285,United States,aenean auctor gravida sem praesent id massa id nisl,37.541,-77.436
+355,2/9/2017 15:49,7/25/2019 16:16,business,active,building,02572 Browning Terrace,813,Mount Pearl,A1N,Canada,suscipit nulla elit ac nulla sed,47.521,-52.808
+356,6/28/2017 20:37,7/25/2019 16:16,business,active,building,9773 Derek Junction,45386,Charlotte,28205,United States,ut odio cras mi,35.227,-80.843
+357,1/3/2019 4:04,7/25/2019 16:16,business,active,building,84 American Crossing,5,Los Angeles,90055,United States,est quam pharetra magna,34.052,-118.244
+358,6/21/2019 15:41,7/25/2019 16:16,business,active,building,1532 Longview Way,560,Honolulu,96825,United States,sollicitudin mi sit amet lobortis sapien sapien non,21.307,-157.858
+359,9/2/2018 2:46,7/25/2019 16:16,business,active,building,8 Glendale Parkway,5,Lexington,40524,United States,integer non velit donec diam neque vestibulum eget,43.135,-87.936
+360,2/10/2019 21:01,7/25/2019 16:16,business,active,building,9 Chinook Court,3,Fort Myers,33994,United States,placerat praesent blandit nam nulla integer pede justo,26.485,-81.948
+361,3/1/2019 21:47,7/25/2019 16:16,business,active,building,6146 Melody Alley,1,Summerside,C1N,Canada,lectus vestibulum quam sapien varius ut blandit non interdum in,46.393,-63.79
+362,8/13/2018 6:17,7/25/2019 16:16,business,active,building,55 Bartillon Center,229,Charleston,29424,United States,mi pede malesuada in imperdiet et commodo vulputate,38.35,-81.633
+363,4/1/2017 20:33,7/25/2019 16:16,business,active,building,102 Nelson Street,4407,Albany,12210,United States,habitasse platea dictumst aliquam,42.653,-73.756
+364,5/1/2018 13:45,7/25/2019 16:16,business,active,building,6 Park Meadow Circle,4,Saint Louis,63169,United States,pede libero quis orci nullam molestie nibh in lectus pellentesque,38.627,-90.199
+365,7/9/2019 7:38,7/25/2019 16:16,business,active,building,782 Acker Avenue,1,Bellevue,98008,United States,lobortis vel dapibus at diam nam tristique,47.61,-122.202
+366,9/2/2018 2:46,7/25/2019 16:16,business,active,building,8 Glendale Parkway,5,Lexington,40524,United States,integer non velit donec diam neque vestibulum eget,43.135,-87.936
+367,4/14/2017 5:17,7/25/2019 16:16,business,active,building,9387 Moose Parkway,7,Maple Ridge,V2X,Canada,dolor vel est donec odio,49.219,-122.598
+368,8/18/2018 15:07,7/25/2019 16:16,business,active,building,45 Loomis Street,3016,Orangeville,T1J,Canada,et commodo vulputate justo in blandit ultrices enim lorem ipsum,42.443,-71.034
+369,4/13/2018 23:15,7/25/2019 16:16,business,active,building,0943 Heffernan Junction,69537,Austin,78764,United States,at dolor quis odio consequat varius,30.267,-97.743
+370,10/26/2017 16:25,7/25/2019 16:16,business,active,building,10910 Walton Place,653,New York City,10009,United States,,41.274,-74.146
+371,7/2/2018 16:54,7/25/2019 16:16,business,active,building,5440 Bowman Street,4,San Antonio,78225,United States,cursus id turpis integer aliquet massa,29.424,-98.494
+372,7/17/2016 7:39,7/25/2019 16:16,business,active,building,5 Hoard Trail,54258,Houston,77045,United States,aenean sit amet justo morbi ut odio cras mi,29.76,-95.37
+373,6/7/2019 15:19,7/25/2019 16:16,business,active,building,7 Miller Trail,5,Rosthern,B0L,Canada,mi nulla ac enim in tempor turpis nec euismod,52.662,-106.332
+374,7/4/2018 17:10,7/25/2019 16:16,business,active,building,9701 Bashford Center,223,Staten Island,10305,United States,pede posuere nonummy integer non velit donec diam,40.58,-74.15
+375,1/5/2019 13:30,7/25/2019 16:16,business,active,building,2956 Packers Plaza,22248,Greensboro,27455,United States,nullam sit amet turpis elementum ligula,36.073,-79.792
+376,11/18/2017 7:17,7/25/2019 16:16,business,active,building,45812 Towne Place,9077,Washington,20420,United States,,41.054,-83.594
+377,10/25/2018 7:54,7/25/2019 16:16,business,active,building,20 Briar Crest Way,12,Staten Island,10305,United States,lacinia nisi venenatis tristique fusce congue diam id ornare,40.58,-74.15
+378,12/23/2016 10:53,7/25/2019 16:16,business,active,building,0480 School Hill,2669,Washington,20067,United States,lobortis vel dapibus at diam nam tristique tortor eu pede,38.659,-87.173
+379,5/4/2019 0:00,7/25/2019 16:16,business,active,building,8710 Manufacturers Crossing,284,Antigonish,B2G,Canada,porttitor pede justo eu massa donec dapibus duis,45.623,-61.993
+380,10/8/2018 3:23,7/25/2019 16:16,business,active,building,1 Granby Alley,6303,Joliet,60435,United States,semper est quam pharetra magna ac consequat metus sapien ut,41.525,-88.082
+381,3/24/2018 20:44,7/25/2019 16:16,business,active,building,158 Pine View Lane,93,Memphis,38197,United States,consequat in consequat ut nulla sed accumsan felis ut,35.026,-89.948
+382,4/17/2017 17:48,7/25/2019 16:16,business,active,building,4312 Sachs Crossing,33,Baltimore,21239,United States,etiam justo etiam pretium iaculis justo in,39.29,-76.612
+383,6/22/2017 14:18,7/25/2019 16:16,business,active,building,355 Scoville Pass,1,Havre-Saint-Pierre,H4R,Canada,ut nunc vestibulum ante ipsum primis,50.242,-63.599
+384,2/28/2019 2:42,7/25/2019 16:16,business,active,building,9 Stang Avenue,4,Fox Creek,E4B,Canada,tristique in tempus sit,-43.55,172.546
+385,11/9/2017 21:58,7/25/2019 16:16,business,active,building,92 Kropf Road,3108,Manassas,22111,United States,tincidunt eget tempus vel pede,38.751,-77.475
+386,12/21/2016 18:24,7/25/2019 16:16,business,active,building,3630 Old Gate Plaza,75696,Little Rock,72209,United States,justo in hac habitasse platea dictumst,34.754,-92.343
+387,2/28/2018 10:13,7/25/2019 16:16,business,active,building,55947 Oakridge Junction,4,Timmins,P4P,Canada,amet erat nulla tempus vivamus in felis eu,48.476,-81.331
+388,4/15/2019 18:14,7/25/2019 16:16,business,active,building,416 Oxford Street,68932,Las Vegas,89135,United States,,36.17,-115.14
+389,4/11/2017 11:01,7/25/2019 16:16,business,active,building,24 Rutledge Point,8,Digby,N3Y,Canada,nulla tellus in sagittis dui vel nisl duis ac,36.281,-83.515
+390,11/4/2017 7:30,7/25/2019 16:16,business,active,building,783 Artisan Road,1331,Norfolk,23509,United States,iaculis justo in hac habitasse platea dictumst etiam faucibus cursus,36.851,-76.286
+391,10/25/2016 20:04,7/25/2019 16:16,business,active,building,35733 Dawn Lane,20,Allentown,18105,United States,neque sapien placerat ante nulla justo aliquam quis turpis,40.602,-75.471
+392,7/22/2016 18:30,7/25/2019 16:16,business,active,building,158 Russell Court,9,Peace River,T8S,Canada,,56.234,-117.289
+393,7/5/2017 3:34,7/25/2019 16:16,business,active,building,75791 Forster Crossing,9964,Arlington,22217,United States,mauris enim leo rhoncus sed vestibulum sit amet cursus,32.215,-95.216
+394,6/15/2018 17:39,7/25/2019 16:16,business,active,building,50232 Bellgrove Hill,1,Las Vegas,89193,United States,et ultrices posuere cubilia curae duis,36.17,-115.14
+395,10/5/2017 20:01,7/25/2019 16:16,business,active,building,2 Graedel Lane,526,Lebel-sur-Quote,N2A,Canada,risus auctor sed tristique in,37.781,-122.412
+396,6/26/2017 14:40,7/25/2019 16:16,business,active,building,4 Mayer Street,98,Deep River,M4J,Canada,sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc,41.365,-72.485
+397,5/2/2019 10:14,7/25/2019 16:16,business,active,building,13348 Columbus Center,76633,Burns Lake,M4H,Canada,mattis pulvinar nulla pede ullamcorper augue a suscipit,54.233,-125.764
+398,11/15/2016 23:36,7/25/2019 16:16,business,active,building,9462 Mcguire Trail,5723,Chambly,J3L,Canada,,45.405,-92.863
+399,1/22/2017 11:53,7/25/2019 16:16,business,active,building,4556 Monument Place,28,Corpus Christi,78410,United States,,27.797,-97.391
+400,3/20/2018 0:20,7/25/2019 16:16,business,active,building,142 Kipling Center,2,Prince Albert,S6W,Canada,,53.203,-105.753
